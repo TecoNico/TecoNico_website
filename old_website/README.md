@@ -1,1 +1,0 @@
-# teconico-web
