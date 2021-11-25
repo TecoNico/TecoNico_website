@@ -16,6 +16,7 @@ body {
 }
 .homeAutomation {
   color: white;
+  height: auto;
   background-color: #d8382a;
   border-radius: 50px;
   /* padding: 10px 10px 10px 1px; */
@@ -35,19 +36,4 @@ body {
 }
 #ans {
   font-size: 12px;
-}
-
-/* Second page */
-.Why_me h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.affordable {
-  text-align: center;
-}
-
-#work {
-  font-size: 29px;
-  color: black;
 }

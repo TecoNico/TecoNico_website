@@ -1,0 +1,22 @@
+.Why_me h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.affordable {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#work {
+  font-size: 29px;
+  color: black;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c4c4;
+  color: black;
+}
