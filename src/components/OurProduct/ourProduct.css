@@ -1,0 +1,34 @@
+.ourProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 25px solid #efeeee;
+  border-radius: 40px;
+  margin: 50px;
+  outline-offset: -29px;
+  outline: 5px solid #d1d1d1;
+  box-shadow: 11px 10px 9px -3px rgba(0, 0, 0, 25%) inset;
+}
+
+.teconicoHome h2 {
+  color: red;
+}
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.teconicoHome p {
+  color: #553355;
+  font-weight: 500;
+}
+
+.teconicoHome {
+  margin: 0px 250px 0px 200px;
+}
+
+.productImg {
+  margin-right: 50px;
+}

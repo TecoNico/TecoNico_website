@@ -1,0 +1,45 @@
+.Why_me h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.affordable {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#work1 {
+  font-size: 29px;
+  font-weight: bold;
+  color: black;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  background-color: #c4c4c4;
+  color: black;
+  height: 250px;
+  border-radius: 30px;
+}
+.homeAutomation1 {
+  color: white;
+  height: 400px;
+  background-color: #d8382a;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline-offset: -20px;
+  outline: 5px solid #e3766d;
+}
+.what1 {
+  flex: 0.5;
+  margin: 26px 104px 13px 100px;
+}
+
+#mb {
+  margin-top: 150px;
+}
