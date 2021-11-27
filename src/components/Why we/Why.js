@@ -4,7 +4,7 @@ import "./why.css";
 const Why = () => {
   return (
     <div className="Why_me">
-      <h1>Why Me?</h1>
+      <h1 id="mb">Why Me?</h1>
       <div className="container">
         <Affordable />
         <Affordable />

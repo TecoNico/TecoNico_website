@@ -32,3 +32,13 @@
 .productImg {
   margin-right: 50px;
 }
+@media only screen and (max-width: 768px) {
+  .ourProduct {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .teconicoHome {
+    margin: 0px 0px 0px 0px;
+  }
+}

@@ -16,18 +16,19 @@ body {
 }
 .homeAutomation {
   color: white;
-  height: auto;
-  background-color: #d8382a;
-  border-radius: 50px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 25px solid #d8382a;
+  background-color: #d8382a;
+  border-radius: 40px;
   outline-offset: -20px;
   outline: 5px solid #e3766d;
 }
 
 .what {
-  height: 200px;
+  height: auto;
   margin: 15px 180px 40px 180px;
 }
 #question {
@@ -35,4 +36,30 @@ body {
 }
 #ans {
   font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+  }
+  .homeAutomation {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+  }
+  .title {
+    margin-right: 0;
+    padding: 40px;
+  }
+  .what {
+    height: auto;
+    margin: auto;
+  }
+  .smart_house img {
+    margin: -20px;
+  }
 }
