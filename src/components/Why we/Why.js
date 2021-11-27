@@ -1,39 +1,21 @@
 import React from "react";
+import Affordable from "./Affordable";
 import "./why.css";
 const Why = () => {
   return (
     <div className="Why_me">
       <h1>Why Me?</h1>
       <div className="container">
-        <div className="affordable">
-          <h2>Affordable</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
-        </div>
-        <div className="affordable">
-          <h2>Affordable</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
-        </div>
-        <div className="affordable">
-          <h2>Affordable</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
-        </div>
-        <div className="affordable">
-          <h2>Affordable</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
-        </div>
-        <div className="affordable">
-          <h2>Affordable</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
-        </div>
-        <div className="affordable">
-          <h2>Affordable</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisci</p>
-        </div>
+        <Affordable />
+        <Affordable />
+        <Affordable />
+        <Affordable />
+        <Affordable />
+        <Affordable />
       </div>
-      <div className="homeAutomation">
-        <div className="what">
-          <img></img>
-          <p id="work">How our product works?</p>
+      <div className="homeAutomation1">
+        <div className="what1">
+          <p id="work1">How our product works?</p>
           <p id="sample">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -43,15 +25,12 @@ const Why = () => {
             pariaturs. Excepteur sint occaecat cupidatat
           </p>
         </div>
-        <div className="what video">
+        <div className="what1 video">
           <h1 id="video">Our Video Demo</h1>
         </div>
       </div>
     </div>
   );
 };
-{
-  /* <h2>Why We</h2> */
-}
 
 export default Why;
