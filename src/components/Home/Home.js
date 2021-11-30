@@ -1,11 +1,13 @@
 import React from "react";
 import "./Home.css";
 import smart_house from "../../Assets/smart_house.png";
+import Logo from "../../Assets/logo.png";
 const Home = () => {
   return (
     <>
       <div className="container">
         <div className="title">
+          <img src={Logo} alt="Logo" />
           <h1>Update your lifestyle </h1>
           <h1> by </h1>
           <h1>Automating Your Home</h1>

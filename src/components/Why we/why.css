@@ -19,6 +19,7 @@
   color: black;
   height: 250px;
   border-radius: 30px;
+  box-shadow: 11px 10px 9px -3px rgb(0 0 0 / 25%);
 }
 .homeAutomation1 {
   display: flex;
@@ -33,17 +34,19 @@
 }
 .what1 {
   flex: 0.5;
-  margin: 26px 104px 13px 100px;
+  margin: 0 5% 0 5%;
 }
 
 #mb {
-  margin-top: 150px;
+  margin-top: 15%;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+#sample {
+  color: white;
 }
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 786px) {
   .homeAutomation1 {
     display: block;
     padding: 50px;

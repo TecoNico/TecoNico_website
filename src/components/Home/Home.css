@@ -1,13 +1,11 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.title h1 {
-  color: #052663;
-  font-size: 2.5em;
-  margin-bottom: -22px;
-}
+
 .title {
   margin-right: 10%;
+  font-size: 1.5em;
+  color: #052663;
 }
 .container {
   display: flex;
@@ -26,10 +24,9 @@ body {
   outline-offset: -20px;
   outline: 5px solid #e3766d;
 }
-
 .what {
   height: auto;
-  margin: 15px 180px 40px 180px;
+  margin: 0% 7% 3% 10%;
 }
 #question {
   font-size: 25px;
@@ -37,8 +34,11 @@ body {
 #ans {
   font-size: 12px;
 }
+.smart_house {
+  margin: 7% 0% 10% 0%;
+}
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 880px) {
   .container {
     display: block;
     text-align: center;
@@ -55,11 +55,9 @@ body {
     margin-right: 0;
     padding: 40px;
   }
-  .what {
-    height: auto;
-    margin: auto;
-  }
-  .smart_house img {
-    margin: -20px;
+
+  .smart_house {
+    display: flex;
+    justify-content: center;
   }
 }
