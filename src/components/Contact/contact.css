@@ -135,7 +135,11 @@ p,
 .phone-info {
   color: white;
 }
-
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
 @media only screen and (max-width: 800px) {
   .contactform-outer {
     display: block;
