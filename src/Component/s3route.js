@@ -1,12 +1,25 @@
-import React from 'react'
-import s3 from '../Assets/images/s3.png';
+import React from "react";
+import s3 from "../Assets/images/s3.png";
 
+import { useHistory } from "react-router-dom";
 
-export const s3route = () => {
-    return (
-        <div>
-            <img src={s3} alt="Rod Light"/>
+const S3route = () => {
+  let history = useHistory();
 
-        </div>
-    )
-}
+  const redirect = () => {
+    history.push("/4");
+  };
+
+  return (
+    <div>
+      <img
+        src={s3}
+        style={{ width: "100%", height: "40em" }}
+        onClick={redirect}
+        alt="Rod Light"
+      />
+    </div>
+  );
+};
+
+export default S3route;
