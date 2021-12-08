@@ -2,46 +2,52 @@ import React from "react";
 import "./Nav.css";
 const Nav = () => {
   return (
-    <div>
-      <header></header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-img ">
+    <header className="bg-img">
+      <nav class="navbar navbar-expand-lg navbar-dark  ">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto  ">
-              <a class="nav-link   " aria-current="page" href="#">
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel bg-dark"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                Menu
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="navbar-nav  offcanvas-body">
+              <a class="nav-link   " aria-current="page">
                 Home
               </a>
-              <a class="nav-link " href="#">
-                Products
-              </a>
-              <a class="nav-link  " href="#">
-                Blogs
-              </a>
-              <a class="nav-link  " href="#">
-                Our Team
-              </a>
-              <a class="nav-link  " href="#">
-                Coming Products
-              </a>
-              <a class="nav-link  " href="#">
-                Contact Us
-              </a>
+              <a class="nav-link ">Products</a>
+              <a class="nav-link  ">Blogs</a>
+              <a class="nav-link  ">Our Team</a>
+              <a class="nav-link  ">Coming Products</a>
+              <a class="nav-link  ">Contact Us</a>
             </div>
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

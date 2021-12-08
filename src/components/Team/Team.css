@@ -42,3 +42,16 @@
   font-weight: bold;
   color: black;
 }
+@media only screen and (max-width: 768px) {
+  .OurTeam {
+    display: block;
+  }
+  .Team P {
+    font-size: 2em;
+  }
+  .seperator {
+    height: 6px;
+    margin-right: auto;
+    width: auto;
+  }
+}
