@@ -9,15 +9,20 @@ const S3route = () => {
   const redirect = () => {
     history.push("/4");
   };
+  const redirectBack = () => {
+    history.push("/");
+  };
 
   return (
-    <div>
+    <div className="container">
       <img
         src={s3}
-        style={{ width: "100%", height: "40em" }}
+        style={{ width: "100%", height: "auto" }}
         onClick={redirect}
         alt="Rod Light"
       />
+      <button onClick={redirect} className="next"></button>
+      <button onClick={redirectBack} className="prev"></button>
     </div>
   );
 };

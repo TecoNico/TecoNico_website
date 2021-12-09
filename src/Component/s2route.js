@@ -6,17 +6,21 @@ const S2route = () => {
   let history = useHistory();
 
   const redirect = () => {
-    history.push("/3");
+    history.push("/");
   };
-
+  const redirectBack = () => {
+    history.push("/4");
+  };
   return (
-    <div>
+    <div className="container">
       <img
         src={s2}
-        style={{ width: "100%", height: "40em" }}
+        style={{ width: "100%", height: "auto" }}
         onClick={redirect}
         alt="Lamp Light"
       />
+      <button onClick={redirect} className="next"></button>
+      <button onClick={redirectBack} className="prev"></button>
     </div>
   );
 };

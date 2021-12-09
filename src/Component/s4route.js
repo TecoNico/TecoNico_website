@@ -6,17 +6,22 @@ const S4route = () => {
   let history = useHistory();
 
   const redirect = () => {
+    history.push("/3");
+  };
+  const redirectBack = () => {
     history.push("/");
   };
 
   return (
-    <div>
+    <div className="container">
       <img
         src={s4}
-        style={{ width: "100%", height: "40em" }}
+        style={{ width: "100%", height: "auto" }}
         onClick={redirect}
         alt="all Lights"
       />
+      <button onClick={redirect} className="next"></button>
+      <button onClick={redirectBack} className="prev"></button>
     </div>
   );
 };
