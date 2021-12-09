@@ -45,13 +45,13 @@
 #sample {
   color: white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .homeAutomation1 {
     display: block;
-    padding: 50px;
-    height: auto;
+    height: 100%;
     text-align: center;
     width: 100%;
+    justify-content: center;
   }
   .what1 {
     margin: 0px 0px 0px 0px;

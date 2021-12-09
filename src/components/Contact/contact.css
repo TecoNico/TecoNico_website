@@ -139,11 +139,12 @@ p,
   color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .contactform-outer {
     display: block;
     text-align: center;
     width: 100%;
+    
   }
   .contactform-inner {
     display: block;
