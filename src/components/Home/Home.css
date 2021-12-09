@@ -1,0 +1,65 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  margin-right: 10%;
+  font-size: 1.5em;
+  color: #052663;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeAutomation {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 25px solid #56d0eb;
+  background-color: #56d0eb;
+  border-radius: 40px;
+  outline-offset: -20px;
+  outline: 5px solid #7fdbef;
+}
+
+.what {
+  height: auto;
+  margin: 0% 7% 3% 10%;
+}
+#question {
+  font-size: 25px;
+}
+#ans {
+  font-size: 12px;
+}
+.smart_house {
+  margin: 7% 0% 10% 0%;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    padding: 50px;
+  }
+  .homeAutomation {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+  }
+  .title {
+    margin-right: 0;
+    padding: 40px;
+  }
+
+  .smart_house {
+    display: flex;
+    justify-content: center;
+  }
+}
