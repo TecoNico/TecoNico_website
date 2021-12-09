@@ -1,0 +1,160 @@
+/* .contactform {
+  height: 100%;
+  width: 100%;
+  background-color: #c53838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+} */
+
+.contactform-outer {
+  border: 25px solid #fff;
+  border-radius: 40px;
+  padding: 4% 4%;
+  background-color: #fff;
+  outline-offset: -20px;
+  outline: 5px solid #fff;
+}
+
+.contactform-inner {
+  background-color: #fff;
+  border-radius: 40px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.container-inner-21 {
+  height: 100%;
+  width: 40%;
+  background-color: #a0a0a0;
+  z-index: 1;
+  border-radius: 25px;
+  padding: 4%;
+  font-size: 23px;
+  box-shadow: 20px 20px 20px 0px rgb(0 0 0 / 25%) inset;
+  border: 5px solid #979797;
+}
+.TecoNicoimg {
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.container-inner-22 {
+  width: 50%;
+}
+
+.input-div {
+  display: flex;
+  justify-content: flex-start;
+}
+::placeholder {
+  color: #574747;
+}
+.input-div > input {
+  height: 20%;
+  border-radius: 20px;
+  margin: 0 6% 6% 7%;
+  color: #574747;
+  padding: 2% 2%;
+  box-shadow: 6px 6px 7px 0px rgb(0 0 0 / 25%) inset;
+  background-color: #fff;
+  font-size: 20px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-around;
+}
+.name {
+  width: 50%;
+}
+
+.email {
+  width: 100%;
+}
+
+.msg {
+  margin: 1% 7%;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 2% 2%;
+  box-shadow: 6px 6px 7px 0px rgb(0 0 0 / 25%) inset;
+  color: #574747;
+  background-color: #fff;
+}
+
+.btn-div {
+  margin: 2% 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  height: 3em;
+  margin-top: 10%;
+  width: 35%;
+  font-size: 25px;
+  border-radius: 15px;
+  background-color: #4860ca;
+  color: white;
+
+  cursor: pointer;
+  border: 5px solid #84a3e3;
+
+  box-shadow: -8px -7px 7px 0px rgb(255 255 255 / 25%) inset;
+}
+
+.contact-head {
+  text-align: center;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3,
+p,
+.SocialMedia {
+  color: white;
+}
+.icon-section {
+  display: flex;
+}
+.address-info {
+  color: white;
+}
+.email-info {
+  color: white;
+}
+.phone-info {
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .contactform-outer {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .contactform-inner {
+    display: block;
+  }
+  .container-inner-21 {
+    width: 91%;
+  }
+  .input-div > input {
+    margin-top: 40px;
+  }
+  .container-inner-22 {
+    width: 100%;
+  }
+}
