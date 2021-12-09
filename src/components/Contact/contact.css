@@ -140,7 +140,7 @@ textarea:focus,
 select:focus {
   outline: none;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .contactform-outer {
     display: block;
     text-align: center;

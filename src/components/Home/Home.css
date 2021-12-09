@@ -38,18 +38,20 @@ body {
   margin: 7% 0% 10% 0%;
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 800px) {
   .container {
     display: block;
     text-align: center;
     padding: 50px;
     width: 100%;
+    
   }
   .homeAutomation {
     display: block;
     text-align: center;
     padding: 50px;
     width: 100%;
+    
   }
   .title {
     margin-right: 0;
