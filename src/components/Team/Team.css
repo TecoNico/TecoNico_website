@@ -1,0 +1,57 @@
+.Team {
+  margin: 5%;
+  flex: 0.25;
+}
+
+.Member {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  column-gap: 4em;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.OurTeam {
+  margin: 10% 5%;
+  display: flex;
+}
+
+.seperator {
+  width: 6px;
+  background-color: red;
+  border-radius: 50px;
+  margin-right: 10%;
+}
+
+.Members {
+  margin: 5px;
+}
+.Members h2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Members p {
+  font-weight: 400;
+}
+
+.Team p {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  .OurTeam {
+    display: block;
+  }
+  .Team P {
+    font-size: 2em;
+  }
+  .seperator {
+    height: 6px;
+    margin-right: auto;
+    width: auto;
+  }
+}
