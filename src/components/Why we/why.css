@@ -45,6 +45,9 @@
 #sample {
   color: white;
 }
+.affordable p {
+  color: black;
+}
 @media only screen and (max-width: 900px) {
   .homeAutomation1 {
     display: block;
