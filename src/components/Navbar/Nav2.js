@@ -2,7 +2,7 @@ import React from "react";
 import "./Nav.css";
 const Nav = () => {
   return (
-    <header className="bg-img">
+    <header className="">
       <nav className="navbar navbar-expand-lg navbar-dark ">
         <div className="container-fluid">
           <button
@@ -65,12 +65,10 @@ const Nav = () => {
                   </li>
                 </ul>
               </li>
-              <a className="nav-link  " href="/">
+              <a className="nav-link  " href="/homeautomation">
                 Blogs
               </a>
-              <a className="nav-link " href="/team">
-                Our Team
-              </a>
+              <a className="nav-link">Our Team</a>
               <a className="nav-link">Coming Products</a>
               <a className="nav-link">Contact Us</a>
             </div>

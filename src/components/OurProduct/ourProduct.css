@@ -38,9 +38,11 @@
     display: block;
     text-align: center;
     width: 100%;
-    
   }
   .teconicoHome {
     margin: 0px 0px 0px 0px;
+  }
+  img {
+    width: 90%;
   }
 }

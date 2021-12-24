@@ -26,7 +26,9 @@ const Why = () => {
           </p>
         </div>
         <div className="what1 video">
-          <h1 id="video">Our Video Demo</h1>
+          <h1 id="video">
+            <a href="/1">Demo Page </a>
+          </h1>
         </div>
       </div>
     </div>

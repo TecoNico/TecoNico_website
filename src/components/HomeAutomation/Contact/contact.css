@@ -9,11 +9,11 @@
 } */
 
 .contactform-outer {
-  border: 25px solid #d8382a;
+  border: 18px solid #d8382a;
   border-radius: 40px;
-  padding: 4% 4%;
+  padding: 1% 7%;
   background-color: #d8382a;
-  outline-offset: -20px;
+  outline-offset: -18px;
   outline: 5px solid #e3766d;
 }
 
