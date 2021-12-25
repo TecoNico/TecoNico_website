@@ -14,9 +14,9 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Announcement />} />
         <Route exact path="/1" element={<S1Route />} />
-        <Route exact path="/2" element={<S2Route />} />
+        {/* <Route exact path="/2" element={<S2Route />} />
         <Route exact path="/3" element={<S3Route />} />
-        <Route exact path="/4" element={<S4Route />} />
+        <Route exact path="/4" element={<S4Route />} /> */}
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/healthcare" element={<HealthCare />} />
         <Route exact path="/homeautomation" element={<HomeAutomation />} />
