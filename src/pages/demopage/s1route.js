@@ -74,7 +74,7 @@ const S1route = () => {
             setSwitch3(true);
             setCheck(true);
           }
-          if (check2 == false && check == false) {
+          if (check2 === false && check === false) {
             setSwitch1(true);
             setSwitch2(true);
             setSwitch4(false);
@@ -98,7 +98,7 @@ const S1route = () => {
             setSwitch3(true);
             setCheck2(true);
           }
-          if (check2 == false && check == false) {
+          if (check2 === false && check === false) {
             setSwitch1(true);
             setSwitch2(true);
             setSwitch4(false);
