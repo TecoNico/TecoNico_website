@@ -3,9 +3,7 @@ import Announcement from "./pages/announcement/index";
 import HealthCare from "./pages/healthcare";
 import HomeAutomation from "./pages/homeautomation/index";
 import S1Route from "./pages/demopage/s1route";
-// import S2Route from "./pages/demopage/s2route";
-// import S3Route from "./pages/demopage/s3route";
-// import S4Route from "./pages/demopage/s4route";
+
 import Team from "./components/Team/Team";
 import Blog from "./pages/blog/index";
 
