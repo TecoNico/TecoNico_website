@@ -3,10 +3,10 @@ import s1 from "../../Assets/images/s1.png";
 import s2 from "../../Assets/images/s2.png";
 import s3 from "../../Assets/images/s3.png";
 import s4 from "../../Assets/images/s4.png";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import "./img.css";
 const S1route = () => {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
   const [Switch1, setSwitch1] = useState(false);
   const [Switch2, setSwitch2] = useState(true);
   const [Switch3, setSwitch3] = useState(true);
@@ -74,7 +74,7 @@ const S1route = () => {
             setSwitch3(true);
             setCheck(true);
           }
-          if (check2 == false && check == false) {
+          if (check2 === false && check === false) {
             setSwitch1(true);
             setSwitch2(true);
             setSwitch4(false);
@@ -98,7 +98,7 @@ const S1route = () => {
             setSwitch3(true);
             setCheck2(true);
           }
-          if (check2 == false && check == false) {
+          if (check2 === false && check === false) {
             setSwitch1(true);
             setSwitch2(true);
             setSwitch4(false);

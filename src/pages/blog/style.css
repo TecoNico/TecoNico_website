@@ -1,0 +1,29 @@
+.Blog {
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.social {
+  color: black;
+}
+
+.feeds {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog-head {
+  display: flex;
+  margin: 2%;
+  justify-content: center;
+}
+
+#dotted {
+  margin: 6% 6%;
+  border-top: 3px dotted #261919;
+}
+
+#dotted1 {
+  margin: 6% 6%;
+  border-top: 3px dotted #261919;
+}

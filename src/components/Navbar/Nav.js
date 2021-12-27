@@ -65,7 +65,7 @@ const Nav = () => {
                   </li>
                 </ul>
               </li>
-              <a className="nav-link  " href="/">
+              <a className="nav-link  " href="/blog">
                 Blogs
               </a>
               <a className="nav-link " href="/team">
