@@ -7,6 +7,7 @@ import S1Route from "./pages/demopage/s1route";
 import S3Route from "./pages/demopage/s3route";
 import S4Route from "./pages/demopage/s4route"; */
 import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/healthcare" element={<HealthCare />} />
         <Route exact path="/homeautomation" element={<HomeAutomation />} />
+        <Route exact path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );
