@@ -1,30 +1,18 @@
-/* .contactform {
-  height: 100%;
-  width: 100%;
-  background-color: #c53838;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2%;
-} */
-
 .contactform-outer {
-  border: 25px solid #fff;
-  border-radius: 40px;
-  padding: 4% 4%;
+  border: 40px solid #fff;
+  border-radius: 90px;
+  padding: 2% 2%;
   background-color: #fff;
   outline-offset: -20px;
-  outline: 5px solid #fff;
+  outline: 4px solid #fff;
 }
 
 .contactform-inner {
   background-color: #fff;
-  border-radius: 60px;
+  border-radius: 70px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
-
 .container-inner-21 {
   height: 100%;
   width: 40%;
@@ -39,15 +27,17 @@
 .TecoNicoimg {
   border-radius: 8%;
   display: flex;
-  justify-content: center;
-  width: 90%;
+  max-width: 100%;  
+   height: auto;  
+   display: block;
 }
 
 .container-inner-22 {
-  width: 50%;
+  width: 100%;
 }
 
 .input-div {
+  
   display: flex;
   justify-content: flex-start;
 }
@@ -75,7 +65,7 @@ select:focus {
   justify-content: space-around;
 }
 .name {
-  width: 50%;
+  width: auto;
 }
 
 .email {

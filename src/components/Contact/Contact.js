@@ -16,15 +16,15 @@ const contact = () => {
           <div className="container-inner-21">
             <div className="contact-head">Contact Details</div>
             <div className="address-info">
-              <h3>Address</h3>
+              <h4>Address</h4>
               <p>Lorem ipsum dolor sit annet, consectetur</p>
             </div>
             <div className="email-info">
-              <h3>Email Address</h3>
+              <h4>Email Address</h4>
               <p>xyz@gmail.com</p>
             </div>
             <div className="phone-info">
-              <h3>Phone No.</h3>
+              <h4>Phone No.</h4>
               <p>+91-1234585213</p>
             </div>
             <div className="TecoNicoimg">
