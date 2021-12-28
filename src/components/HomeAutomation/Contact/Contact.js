@@ -27,42 +27,45 @@ const contact = () => {
                 <p>+91-1234585213</p>
               </div>
               <div className="TecoNicoimg">
-                <img src={Footer} alt="TecoNico" />
+                <img id="TecoNicoimg" src={Footer} alt="TecoNico" />
               </div>
               <div className="SocialMedia">
                 <div>
-                  <h4 align="center"> Our Social Media Handles</h4>
+                  <h4 align="center" style={{ color: "white" }}>
+                    {" "}
+                    Our Social Media Handles
+                  </h4>
                 </div>
                 <div className="social-container">
                   <a
                     href="https://www.youtube.com/channel/UCxwKmIoGtvGW6OLW07kiUGw/featured"
                     className="youtube social"
                   >
-                    <img src={yt} alt="TecoNico" />
+                    <img src={yt} className="icon" alt="TecoNico" />
                   </a>
                   <a
                     href="https://www.facebook.com/teconicopvtltd"
                     className="facebook social"
                   >
-                    <img src={Fb} alt="TecoNico" />
+                    <img src={Fb} className="icon" alt="TecoNico" />
                   </a>
                   <a
                     href="https://twitter.com/Teconicopvtltd"
                     className="twitter social"
                   >
-                    <img src={Tweeter} alt="TecoNico" />
+                    <img src={Tweeter} className="icon" alt="TecoNico" />
                   </a>
                   <a
                     href="https://www.instagram.com/teconicopvtltd/"
                     className="instagram social"
                   >
-                    <img src={Insta} alt="TecoNico" />
+                    <img src={Insta} className="icon" alt="TecoNico" />
                   </a>
                   <a
                     href="https://www.linkedin.com/company/teconicopvtltd/"
                     className="linkedin social"
                   >
-                    <img src={Linkdin} alt="TecoNico" />
+                    <img src={Linkdin} className="icon" alt="TecoNico" />
                   </a>
                 </div>
               </div>

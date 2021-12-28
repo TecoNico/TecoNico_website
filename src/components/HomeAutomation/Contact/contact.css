@@ -11,7 +11,7 @@
 .contactform-outer {
   border: 18px solid #d8382a;
   border-radius: 40px;
-  padding: 1% 7%;
+  padding: 2% 15%;
   background-color: #d8382a;
   outline-offset: -18px;
   outline: 5px solid #e3766d;
@@ -21,7 +21,6 @@
   background-color: #e98e8e;
   border-radius: 40px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -36,11 +35,9 @@
   box-shadow: 20px 20px 20px 0px rgb(0 0 0 / 25%) inset;
   border: 5px solid #a9807c;
 }
-.TecoNicoimg {
-  border-radius: 8%;
-  display: flex;
+#TecoNicoimg {
   justify-content: center;
-  width: 90%;
+  width: 70%;
 }
 
 .container-inner-22 {
@@ -78,6 +75,7 @@
   font-size: 20px;
   border-radius: 20px;
 
+  height: 100px;
   padding: 2% 2%;
   box-shadow: 6px 6px 7px 0px rgb(0 0 0 / 25%) inset;
   color: #574747;
@@ -85,7 +83,6 @@
 }
 
 .btn-div {
-  margin: 2% 1%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,9 +93,8 @@
   justify-content: space-around;
 }
 .btn {
-  height: 3em;
   margin-top: 10%;
-  width: 35%;
+
   font-size: 25px;
   border-radius: 15px;
   background-color: #4860ca;
@@ -119,9 +115,9 @@
 }
 
 h3,
-p,
-.SocialMedia {
+p {
   color: white;
+  font-size: 16px;
 }
 .icon-section {
   display: flex;
@@ -145,15 +141,16 @@ select:focus {
     display: block;
     text-align: center;
     width: 100%;
+    padding: 0;
   }
   .contactform-inner {
     display: block;
   }
   .container-inner-21 {
-    width: 91%;
+    width: 100%;
   }
   .input-div > input {
-    margin-top: 40px;
+    margin-top: 12px;
   }
   .container-inner-22 {
     width: 100%;
