@@ -1,33 +1,35 @@
 import React from "react";
 import Affordable from "./Affordable";
 import "./why.css";
+import YoutubeEmbed from "../../Youtube/YoutubeEmbed";
 const Why = () => {
   return (
     <div className="Why_me">
       <h1 id="mb">Why Me?</h1>
-      <div className="container">
+      {/*<div className="container">
         <Affordable />
         <Affordable />
         <Affordable />
         <Affordable />
         <Affordable />
         <Affordable />
-      </div>
+      </div> */}
       <div className="homeAutomation1">
         <div className="what1">
           <p id="work1">How our product works?</p>
           <p id="sample">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariaturs. Excepteur sint occaecat cupidatat
+            TecoHome is a small device which can fit inside your switch board
+            and install it in less than 10 min and also it does not change your
+            existing your board functionality instead it makes your switch board
+            smart. You can control it from our App from Anywhere in the World.
+            Also, it can be controlled by ALEXA and Google Home and IR Remote.
+            It make your life easier by its scheduler and timer functions, so it
+            can automatically turn on/off your devices.
           </p>
         </div>
-        <div className="what1 video">
+        <div className="what1 ">
           <h1 id="video">
-            <a href="/1">Demo Page </a>
+            <YoutubeEmbed embedId="ciQ72w-TRBc" />
           </h1>
         </div>
       </div>

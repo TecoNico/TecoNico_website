@@ -9,20 +9,10 @@
   color: black;
 }
 
-.video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
-  padding: 10px;
-  background-color: #c4c4c4;
-  color: black;
-  height: 250px;
+#video {
+  border: 2px solid black;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 20%);
   border-radius: 30px;
-  box-shadow: 11px 10px 9px -3px rgb(0 0 0 / 25%);
-}
-.video a {
-  text-decoration: none;
 }
 .homeAutomation1 {
   display: flex;
@@ -52,7 +42,7 @@
 @media only screen and (max-width: 786px) {
   .homeAutomation1 {
     display: block;
-    padding: 50px;
+
     height: auto;
     text-align: center;
     width: 100%;

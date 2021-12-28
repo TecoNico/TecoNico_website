@@ -10,18 +10,14 @@ const Introduce = () => {
         <div className="seperator"></div>
         <div className="Me">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisiLorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisiLorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisiLorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi
+            We at TecoNico Pvt. Ltd. try our best to solve modern-day problems
+            with smart solutions using advanced technology. Our main tools are
+            AI and ML technology that provides the effortless result with utmost
+            accuracy. We provide different technologies in both hardware and
+            software solutions. Our main aim to provide best of best products
+            and services to clients. Quality is the only thing by which TecoNico
+            is alive. Our team follow passion in their work, support in the team
+            work, professionalism with clients.
           </p>
         </div>
       </div>

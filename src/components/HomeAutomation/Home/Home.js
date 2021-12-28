@@ -8,9 +8,11 @@ const Home = () => {
       <div className="container">
         <div className="title">
           <img src={Logo} alt="Logo" />
-          <h1>Update your lifestyle </h1>
-          <h1> by </h1>
-          <h1>Automating Your Home</h1>
+          <div className="title-text" style={{ textAlign: "center" }}>
+            <h1>Update your lifestyle </h1>
+            <h1> by </h1>
+            <h1>Automating Your Home</h1>
+          </div>
         </div>
         <div className="smart_house">
           <img src={smart_house} alt="smart house" />
@@ -20,23 +22,23 @@ const Home = () => {
         <div className="what">
           <p id="question">What is Home Automation?</p>
           <p id="ans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariaturs. Excepteur sint occaecat cupidatat
+            Home automation is the automation of your switches and appliances,
+            so that they can be controlled by your fingertip from Anywhere.
+            These devices are connected to the Internet, which allows them to be
+            controlled remotely. It can controlled by app, voice assistant and
+            remote. It easy your life by scheduler and timer and automate your
+            life.
           </p>
         </div>
         <div className="what">
-          <p id="question">why is Home Automation</p>
+          <p id="question">Why it is needed?</p>
           <p id="ans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariaturs. Excepteur sint occaecat cupidatat
+            you can put your lights on schedules so that they turn off when you
+            normally go to sleep, or you can have your thermostat turn the A/C
+            up about an hour before you return to work so you don’t have to
+            return to a stuffy house. Home automation makes life more convenient
+            and can even save you money on heating, cooling and electricity
+            bills.
           </p>
         </div>
       </div>

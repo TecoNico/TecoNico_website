@@ -1,8 +1,17 @@
 import React from "react";
 import "./Nav.css";
+import Homeimg from "../../Assets/pg1.png";
 const Nav = () => {
   return (
     <header className="bg-img">
+      <img src={Homeimg} alt="logo" className="Homeimg" />
+      <div className="slogan">
+        <pre style={{ color: "#e3332c" }}>Don't wait for future.. </pre>
+        <pre> ..Let's change the Present</pre>
+      </div>
+      <div className="logo">
+        Teco<span>Nico</span>
+      </div>
       <nav className="navbar navbar-expand-lg navbar-dark ">
         <div className="container-fluid">
           <button

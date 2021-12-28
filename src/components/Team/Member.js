@@ -1,12 +1,20 @@
 import React from "react";
-import avatar from "../../Assets/Avatar.png";
-const Member = () => {
+
+const Member = (props) => {
   return (
-    <div className="Members">
-      <img src={avatar} alt="avatar" className="avatar" />
-      <h2>Aditya Mangal</h2>
-      <p>Founder and Director</p>
-    </div>
+    // <div className="Family">
+    <>
+      <div className="Members">
+        <img
+          src={props.avatar}
+          alt="avatar"
+          className="avatar"
+          style={{ height: "auto", width: "90%", borderRadius: "50%" }}
+        />
+        <h2>{props.name}</h2>
+        <p>{props.role}</p>
+      </div>
+    </>
   );
 };
 

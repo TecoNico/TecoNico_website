@@ -4,41 +4,48 @@ const Ourvision = () => {
   return (
     <div className="container-fluid bg-dark">
       <div className="OurVision">
-        <div className="title">
+        <div className="title-vision">
           <p>Our Vision</p>
         </div>
         <div className="big_scr">
           <div className="heading">
             <h2>Vision</h2>
-            <h2>Motivation</h2>
+            <h2>Mission</h2>
             <h2>Plan</h2>
           </div>
           <div className="VMP">
             <div className="Vision">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisiLorem ipsum dolor sit
-                <li>Learn more</li>
+                We are passionate in our work and never look at alternatives for
+                hard work. We build a strong connection with our colleagues,
+                emotionally and professionally, which enable us to create a good
+                environment in our company. We always treat our clients with a
+                positive attitude, we treat them with due respect and maintain
+                professionalism with them. As we always look at our company as a
+                team of intellectuals, so we have created a democratic platform,
+                in which everyone's voice and outlook is being mattered.
               </p>
             </div>
             <div className="Motivation">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisiLorem ipsum dolor sit
-                <li>Learn more</li>
+                Our mission is to provide a platform to the people where they
+                can find anything that they need. A place where a small idea
+                would be welcomed by both hands and would be provided with the
+                best results out of it. We want to develop an environment where
+                every one of us can thrive and meet all the demands of the
+                coming future. A place where each and every one ‘s voice, not
+                only talking about our employees but our customers and everyone
+                who incubate their ideas in the company would be relished upon
+                and would be cared.
               </p>
             </div>
             <div className="Plan">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisiLorem ipsum dolor sit
-                <li>Learn more</li>
+                We plan to provide the best products and services to the people.
+                We never compromise with the quality as in the future we have to
+                create benchmarks for us only. We have to make long term goals
+                and have to create a proper structure to achieve it. We are here
+                to provide great values and to earn and to make respect.
               </p>
             </div>
           </div>
@@ -64,10 +71,15 @@ const Ourvision = () => {
                 aria-labelledby="panelsStayOpen-headingOne"
               >
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisiLorem ipsum dolor sit
+                  We are passionate in our work and never look at alternatives
+                  for hard work. We build a strong connection with our
+                  colleagues, emotionally and professionally, which enable us to
+                  create a good environment in our company. We always treat our
+                  clients with a positive attitude, we treat them with due
+                  respect and maintain professionalism with them. As we always
+                  look at our company as a team of intellectuals, so we have
+                  created a democratic platform, in which everyone's voice and
+                  outlook is being mattered.
                 </div>
               </div>
             </div>
@@ -81,7 +93,7 @@ const Ourvision = () => {
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseTwo"
                 >
-                  Motivation
+                  Mission
                 </button>
               </h2>
               <div
@@ -90,10 +102,15 @@ const Ourvision = () => {
                 aria-labelledby="panelsStayOpen-headingTwo"
               >
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisiLorem ipsum dolor sit
+                  Our mission is to provide a platform to the people where they
+                  can find anything that they need. A place where a small idea
+                  would be welcomed by both hands and would be provided with the
+                  best results out of it. We want to develop an environment
+                  where every one of us can thrive and meet all the demands of
+                  the coming future. A place where each and every one ‘s voice,
+                  not only talking about our employees but our customers and
+                  everyone who incubate their ideas in the company would be
+                  relished upon and would be cared. t
                 </div>
               </div>
             </div>
@@ -116,10 +133,12 @@ const Ourvision = () => {
                 aria-labelledby="panelsStayOpen-headingThree"
               >
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisiLorem ipsum dolor sit
+                  We plan to provide the best products and services to the
+                  people. We never compromise with the quality as in the future
+                  we have to create benchmarks for us only. We have to make long
+                  term goals and have to create a proper structure to achieve
+                  it. We are here to provide great values and to earn and to
+                  make respect.
                 </div>
               </div>
             </div>

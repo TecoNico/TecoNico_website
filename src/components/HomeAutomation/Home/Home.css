@@ -26,13 +26,13 @@ body {
 }
 .what {
   height: auto;
-  margin: 0% 7% 3% 10%;
+  margin: 2% 5%;
 }
 #question {
-  font-size: 25px;
+  font-size: 30px;
 }
 #ans {
-  font-size: 12px;
+  font-size: 15px;
 }
 .smart_house {
   margin: 7% 0% 10% 0%;
@@ -42,16 +42,13 @@ body {
   .container {
     display: block;
     text-align: center;
-    padding: 50px;
+    padding: 0px;
     width: 100%;
-    
   }
   .homeAutomation {
     display: block;
     text-align: center;
-    padding: 50px;
     width: 100%;
-    
   }
   .title {
     margin-right: 0;

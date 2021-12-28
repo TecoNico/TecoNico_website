@@ -6,9 +6,9 @@
 .Member {
   display: flex;
   text-align: center;
-  justify-content: space-between;
-  column-gap: 4em;
-  row-gap: 10px;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 50px;
   flex-wrap: wrap;
   flex: 1;
 }
@@ -27,6 +27,8 @@
 
 .Members {
   margin: 5px;
+  /* border: 2px solid red; */
+  width: 30%;
 }
 .Members h2 {
   font-size: 15px;
@@ -35,6 +37,7 @@
 
 .Members p {
   font-weight: 400;
+  color: black;
 }
 
 .Team p {
@@ -42,6 +45,36 @@
   font-weight: bold;
   color: black;
 }
+/* .avatar:hover {
+  opacity: 0.4;
+  transition: 0.4s;
+} */
+.avatar {
+  border: 5px solid black;
+}
+
+.Members:hover {
+  opacity: 1;
+  transition: 0.4s;
+  background: rgb(0 0 0 / 70%);
+  border-radius: 16%;
+}
+.Members:hover .avatar {
+  opacity: 0.5;
+}
+.Members:hover h2 {
+  opacity: 1;
+  transition: 0.5s ease;
+  color: white;
+  transform: translate(0%, -150%);
+}
+.Members:hover p {
+  opacity: 1;
+  transition: 0.5s ease;
+  color: white;
+  transform: translate(2%, 0%);
+}
+
 @media only screen and (max-width: 768px) {
   .OurTeam {
     display: block;
@@ -53,5 +86,8 @@
     height: 6px;
     margin-right: auto;
     width: auto;
+  }
+  .Members {
+    width: 100%;
   }
 }

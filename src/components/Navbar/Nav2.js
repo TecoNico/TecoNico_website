@@ -68,7 +68,9 @@ const Nav = () => {
               <a className="nav-link  " href="/blog">
                 Blogs
               </a>
-              <a className="nav-link">Our Team</a>
+              <a className="nav-link" href="/family">
+                Our Team
+              </a>
               <a className="nav-link">Coming Products</a>
               <a className="nav-link">Contact Us</a>
             </div>

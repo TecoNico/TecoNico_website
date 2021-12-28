@@ -8,12 +8,10 @@ const OurProduct = () => {
         <div className="teconicoHome">
           <h2>TecoNico App</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisiLorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi
+            Let’s smart your life and your home by making it’s smart with your
+            fingertip. You can add TecoHome devices and control them from
+            Anywhere in the world. Also you can control TecoHome devices if you
+            does not have internet with our app.
           </p>
         </div>
         <div className="productImg">

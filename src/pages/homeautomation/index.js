@@ -14,7 +14,7 @@ export default function HomeAutomation() {
       <Why />
       <OurProduct />
       <OurProduct2 />
-      <Contact style={{ height: "500px" }} />
+      {/* <Contact style={{ height: "500px" }} /> */}
     </div>
   );
 }

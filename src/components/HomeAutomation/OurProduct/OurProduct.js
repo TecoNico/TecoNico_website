@@ -9,12 +9,13 @@ const OurProduct = () => {
         <div className="teconicoHome">
           <h2>TecoNico Home</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisiLorem
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi
+            TecoHome has variety of devices by varying it’s functionalities. It
+            has single node which has light and heavy versions, four node with
+            fan regulation and with fan regulation. You can control it from our
+            App from Anywhere in the World. Also, it can be controlled by ALEXA
+            and Google Home and IR Remote. It make your life easier by its
+            scheduler and timer functions, so it can automatically turn on/off
+            your devices.
           </p>
         </div>
         <div className="productImg">

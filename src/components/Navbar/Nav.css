@@ -7,21 +7,38 @@
 }
 
 .bg-img {
-  background-image: url("../../Assets/pg1.png");
   min-height: 40em;
+  background-color: #434043;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
+.Homeimg {
+  position: absolute;
+  width: 400px;
+  height: 340px;
+  top: 18%;
+  right: 37%;
+}
+.logo {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  left: 10px;
+}
+.logo > span {
+  color: #e3332c;
+}
 .navbar-nav {
-  /* overflow: hidden; */
   margin-left: auto;
 }
-.bg-img {
-  max-width: 100% !important;
-  height: auto !important;
+.slogan {
+  position: absolute;
+  color: white;
+  bottom: 7%;
+  font-size: 34px;
+  left: 37%;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
@@ -31,6 +48,19 @@
 @media only screen and (max-width: 992px) {
   .navbar-nav {
     margin-left: 0;
+  }
+  .Homeimg {
+    display: none;
+  }
+  .bg-img {
+    min-height: 10%;
+  }
+  .slogan {
+    display: none;
+  }
+  .logo {
+    left: 23%;
+    bottom: -10%;
   }
 }
 
