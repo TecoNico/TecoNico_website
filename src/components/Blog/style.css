@@ -28,7 +28,7 @@
   border-top: 3px dotted #261919;
 }
 .grid-container {
-  display: grid;
+  display: block;
   grid-template-columns: auto auto;
 
   padding: 10px;

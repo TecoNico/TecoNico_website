@@ -3,7 +3,7 @@ import Home from "../../components/Healthcare/Home/Home";
 import Why from "../../components/Healthcare/Why we/Why";
 import OurProduct2 from "../../components/Healthcare/OurProduct/OurProduct2";
 import OurProduct from "../../components/Healthcare/OurProduct/OurProduct";
-import Contact from "../../components/Healthcare/Contact/Contact";
+
 import Nav2 from "../../components/Navbar/Nav2";
 
 export default function HealthCare() {
@@ -14,7 +14,6 @@ export default function HealthCare() {
       <Why />
       <OurProduct />
       <OurProduct2 />
-      {/* <Contact /> */}
     </>
   );
 }

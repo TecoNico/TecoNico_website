@@ -4,7 +4,10 @@ import HealthCare from "./pages/healthcare";
 import HomeAutomation from "./pages/homeautomation/index";
 import S1Route from "./pages/demopage/s1route";
 import Team from "./components/Team/Team";
-import Blog from "./pages/blog/index";
+import Blog from "./components/blog/index";
+import { Footer } from "./components/Footer/Footer";
+import Nav2 from "./components/Navbar/Nav2";
+import { Fragment } from "react";
 // import Contact from "./components/HomeAutomation/Contact/Contact";
 
 function App() {
@@ -13,12 +16,21 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Announcement />} />
         <Route exact path="/1" element={<S1Route />} />
-        <Route exact path="/family" element={<Team />} />
+        <Route
+          exact
+          path="/family"
+          element={
+            <Fragment>
+              <Nav2 />
+              <Team />
+            </Fragment>
+          }
+        />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/healthcare" element={<HealthCare />} />
         <Route exact path="/homeautomation" element={<HomeAutomation />} />
-        {/* <Route exact path="/Contact" element={<Contact />} /> */}
       </Routes>
+      <Footer />
     </Router>
   );
 }

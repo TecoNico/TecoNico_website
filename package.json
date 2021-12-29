@@ -11,6 +11,7 @@
     "react-animations": "^1.0.0",
     "react-dom": "^17.0.2",
     "react-dropdown": "^1.9.2",
+    "react-elfsight-widget": "^1.0.0",
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
     "react-strap": "^0.0.1",

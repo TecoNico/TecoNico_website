@@ -4,9 +4,6 @@ const Ourvision = () => {
   return (
     <div className="container-fluid bg-dark">
       <div className="OurVision">
-        <div className="title-vision">
-          <h2>Our Vision</h2>
-        </div>
         <div className="big_scr">
           <div className="heading">
             <h2>Vision</h2>
