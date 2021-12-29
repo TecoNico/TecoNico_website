@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import Health from "../../Assets/Health.png";
-import Logo from "../../Assets/logo.png";
+import Health from "../../../Assets/Health.png";
+import Logo from "../../../Assets/logo.png";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
           <img src={Health} alt="smart house" />
         </div>
       </div>
-      <div className="homeAutomation">
+      <div className="Healthcare">
         <div className="what">
           <p id="question">What is the uee of AI in Healthcare?</p>
           <p id="ans">
@@ -28,7 +28,7 @@ const Home = () => {
             pariaturs. Excepteur sint occaecat cupidatat
           </p>
         </div>
-        <div className="what">
+        <div className="what1">
           <p id="question">How can we ?</p>
           <p id="ans">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

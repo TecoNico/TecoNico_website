@@ -6,7 +6,6 @@ import Harshit from "../../Assets/Team-Image/harshit.jpeg";
 import Vishwajeet from "../../Assets/Team-Image/vishwajeet.jpg";
 import harsh from "../../Assets/Team-Image/harsh.jpg";
 import Vaibhav from "../../Assets/Team-Image/vaibhav.jpg";
-import { fadeInUp } from "react-animations";
 
 import "./Team.css";
 const Team = () => {

@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.homeAutomation {
+.Healthcare {
   color: white;
   display: flex;
   align-items: center;
@@ -25,14 +25,14 @@ body {
   outline: 5px solid #7fdbef;
 }
 
-.what {
+.what1 {
   height: auto;
   margin: 0% 7% 3% 10%;
 }
-#question {
+#question1 {
   font-size: 25px;
 }
-#ans {
+#ans1 {
   font-size: 12px;
 }
 .smart_house {

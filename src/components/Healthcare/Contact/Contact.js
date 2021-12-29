@@ -9,10 +9,10 @@ import Tweeter from "../../../Assets/icons/tweeter.png";
 const contact = () => {
   return (
     <div>
-      <div className="contactform">
-        <div className="contactform-outer">
-          <div className="contactform-inner">
-            <div className="container-inner-21">
+      <div className="contactform1">
+        <div className="contactform-outer1">
+          <div className="contactform-inner1">
+            <div className="container-inner-211">
               <div className="contact-head">Contact Details</div>
               <div className="address-info">
                 <h3>Address</h3>
@@ -103,7 +103,7 @@ const contact = () => {
                   id="message"
                   name="message"
                   rows="8"
-                  cols="100 "
+                  cols="100"
                   placeholder="Message"
                 ></textarea>
               </div>

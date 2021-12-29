@@ -3,7 +3,7 @@
   margin-bottom: 10%;
 }
 
-#work1 {
+#work {
   font-size: 29px;
   font-weight: bold;
   color: black;
@@ -32,7 +32,7 @@
   outline-offset: -20px;
   outline: 5px solid #7fdbef;
 }
-.what1 {
+.what {
   flex: 0.5;
   margin: 0 5% 0 5%;
 }

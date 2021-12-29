@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "../../components/Home/Home";
-import Why from "../../components/Why we/Why";
-import OurProduct2 from "../../components/OurProduct/OurProduct2";
-import OurProduct from "../../components/OurProduct/OurProduct";
-// import Contact from "../../components/Contact/Contact";
+import Home from "../../components/Healthcare/Home/Home";
+import Why from "../../components/Healthcare/Why we/Why";
+import OurProduct2 from "../../components/Healthcare/OurProduct/OurProduct2";
+import OurProduct from "../../components/Healthcare/OurProduct/OurProduct";
+import Contact from "../../components/Healthcare/Contact/Contact";
 import Nav2 from "../../components/Navbar/Nav2";
 
 export default function HealthCare() {
