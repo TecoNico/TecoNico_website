@@ -5,7 +5,7 @@ const Ourvision = () => {
     <div className="container-fluid bg-dark">
       <div className="OurVision">
         <div className="title-vision">
-          <p>Our Vision</p>
+          <h2>Our Vision</h2>
         </div>
         <div className="big_scr">
           <div className="heading">

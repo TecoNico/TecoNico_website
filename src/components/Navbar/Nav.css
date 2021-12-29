@@ -3,6 +3,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: cursive;
   font-size: 17px;
 }
 
@@ -39,6 +40,9 @@
   bottom: 7%;
   font-size: 34px;
   left: 37%;
+}
+.slogan pre {
+  font-style: italic;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
