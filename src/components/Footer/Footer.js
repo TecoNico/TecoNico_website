@@ -26,20 +26,19 @@ export const Footer = () => {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="index.html">Home</a>
+                  <i className="ion-ios-arrow-right"></i> <a href="/">Home</a>
                 </li>
                 <li>
                   <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="careers.html">Careers</a>
+                  <a href="/homeautomation">HomeAutomation</a>
                 </li>
                 <li>
                   <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="ideas-incubation.html">Ideas Incubation</a>
+                  <a href="/healthcare">Healthcare</a>
                 </li>
                 <li>
                   <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="shahimandi.html">Shahi Mandi</a>
+                  <a href="/team">Our Team</a>
                 </li>
               </ul>
             </div>

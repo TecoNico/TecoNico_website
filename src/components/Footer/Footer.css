@@ -121,6 +121,9 @@ a {
   margin: 0;
 }
 
+.footer-info img {
+  width: 80%;
+}
 @media only screen and (max-width: 768px) {
   .social-links img {
     width: 30px;
