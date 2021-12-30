@@ -1,11 +1,14 @@
 import React from "react";
 import "./Footer.css";
+import { FaAngleRight } from "react-icons/fa";
+
 import logo from "../../Assets/images/logo-black.png";
 import fb from "../../Assets/icons/fb.png";
 import insta from "../../Assets/icons/insta.png";
 import linkdin from "../../Assets/icons/linkdin.png";
 import tweet from "../../Assets/icons/tweeter.png";
 import yt from "../../Assets/icons/yt.png";
+
 export const Footer = () => {
   return (
     <footer id="footer">
@@ -26,19 +29,19 @@ export const Footer = () => {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i className="ion-ios-arrow-right"></i> <a href="/">Home</a>
+                  <FaAngleRight /> <a href="/">Home</a>
                 </li>
                 <li>
-                  <i className="ion-ios-arrow-right"></i>{" "}
+                  <FaAngleRight />
                   <a href="/homeautomation">HomeAutomation</a>
                 </li>
                 <li>
-                  <i className="ion-ios-arrow-right"></i>{" "}
+                  <FaAngleRight />
                   <a href="/healthcare">Healthcare</a>
                 </li>
                 <li>
-                  <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="/team">Our Team</a>
+                  <FaAngleRight />
+                  <a href="/family">Our Team</a>
                 </li>
               </ul>
             </div>

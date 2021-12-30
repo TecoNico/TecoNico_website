@@ -16,21 +16,21 @@ const index = () => {
           <ElfsightWidget widgetID="67455506-f879-4668-932c-7de7286b6ad7" />
         </div>
         <hr id="dotted1" />
-
         <h1 align="center">Medium Posts </h1>
-        <div className="grid-container">
-          <ElfsightWidget widgetID="043c5bbb-6ef7-4662-ab7a-164e7fb80b66" />
+        <div className="Medium">
+          <ElfsightWidget widgetID="54b346a7-31b8-43d6-b764-4189f52e339a" />
         </div>
         <hr id="dotted" />
-        <div className="blog-head">
-          <h1>More from us</h1>
+        <h1 align="center">YouTube Posts </h1>
+
+        <div className="Youtube">
+          <ElfsightWidget widgetID="6215b853-db9d-402f-adc0-5711bcb6d1e6" />
         </div>
-        <div className="feeds">
-          <Blog />
-          <Blog />
-          <Blog />
-          <Blog />
-          <Blog />
+        <hr id="dotted" />
+        <h1 align="center">Tweeter Posts </h1>
+
+        <div className="Tweeter">
+          <ElfsightWidget widgetID="ef537d2e-3721-49fa-88db-d2e174116c05" />
         </div>
       </section>
     </>

@@ -52,15 +52,16 @@
 }
 .social-icons {
   visibility: hidden;
-  /* display: none; */
 }
 .Members:hover .social-icons {
   visibility: visible;
   color: white;
-  transition: 0.4s;
   opacity: 0.8;
   transition: 0.5s ease;
   transform: translate(0%, -270%);
+}
+.social-icons a {
+  color: white;
 }
 .Members:hover {
   opacity: 1;
