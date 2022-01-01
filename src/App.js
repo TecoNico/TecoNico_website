@@ -8,7 +8,6 @@ import Blog from "./components/blog/index";
 import { Footer } from "./components/Footer/Footer";
 import Nav2 from "./components/Navbar/Nav2";
 import { Fragment } from "react";
-// import Contact from "./components/HomeAutomation/Contact/Contact";
 
 function App() {
   return (

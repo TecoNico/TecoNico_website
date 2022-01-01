@@ -1,4 +1,3 @@
-import Blog from "./Blog";
 import Nav2 from "../Navbar/Nav2";
 import teconico from "../../Assets/images/logo.jpg";
 import { ElfsightWidget } from "react-elfsight-widget";
@@ -30,7 +29,7 @@ const index = () => {
         <h1 align="center">Tweeter Posts </h1>
 
         <div className="Tweeter">
-          <ElfsightWidget widgetID="ef537d2e-3721-49fa-88db-d2e174116c05" />
+          <ElfsightWidget widgetID="5e3340c0-bbf5-46b0-8b37-d02a55405810" />
         </div>
       </section>
     </>
