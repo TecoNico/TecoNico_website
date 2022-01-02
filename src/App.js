@@ -4,7 +4,7 @@ import HealthCare from "./pages/healthcare";
 import HomeAutomation from "./pages/homeautomation/index";
 import S1Route from "./pages/demopage/s1route";
 import Team from "./components/Team/Team";
-import Blog from "./components/blog/index";
+import Blog from "./components/Blog/index";
 import { Footer } from "./components/Footer/Footer";
 import Nav2 from "./components/Navbar/Nav2";
 import { Fragment } from "react";
