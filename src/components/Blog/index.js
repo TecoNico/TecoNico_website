@@ -12,6 +12,7 @@ const index = () => {
         </div>
         <div className="feeds">
           <ElfsightWidget widgetID="67455506-f879-4668-932c-7de7286b6ad7" />
+          <div className="remover"></div>
         </div>
         <hr id="dotted1" />
         <h1 align="center">Medium Posts </h1>

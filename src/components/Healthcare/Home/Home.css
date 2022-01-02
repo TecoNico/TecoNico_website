@@ -65,4 +65,7 @@ body {
     display: flex;
     justify-content: center;
   }
+  .smart_house img {
+    width: 100%;
+  }
 }

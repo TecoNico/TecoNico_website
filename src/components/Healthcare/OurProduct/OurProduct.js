@@ -7,16 +7,18 @@ import "./ourProduct.css";
 const OurProduct = () => {
   return (
     <>
-      <h1 id="title">Our Product</h1>
-      {/* <div className="ourProduct"> */}
-      {/* <div className="teconicoHome">
-          <h2>TecoNico Home</h2>
-        </div> */}
-      <div className="health_product">
-        <div className="health_img">
+      <h1 id="title2">Our Product</h1>
+      <div className="HealthProduct">
+        <div className="healthImg">
           <img src={Health1} alt="smart house" />
+        </div>
+        <div className="healthImg">
           <img src={Health2} alt="smart house" />
+        </div>
+        <div className="healthImg">
           <img src={Health3} alt="smart house" />
+        </div>
+        <div className="healthImg">
           <img src={Health4} alt="smart house" />
         </div>
       </div>

@@ -51,4 +51,7 @@
     margin: auto;
     height: auto;
   }
+  .productImg img {
+    width: 100%;
+  }
 }
