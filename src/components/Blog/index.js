@@ -1,5 +1,4 @@
 import Nav2 from "../Navbar/Nav2";
-import teconico from "../../Assets/images/logo.jpg";
 import { ElfsightWidget } from "react-elfsight-widget";
 import "./style.css";
 

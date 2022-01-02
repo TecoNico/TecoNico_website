@@ -1,5 +1,4 @@
 import React from "react";
-import Affordable from "./Affordable";
 import "./why.css";
 import YoutubeEmbed from "../../Youtube/YoutubeEmbed";
 const Why = () => {

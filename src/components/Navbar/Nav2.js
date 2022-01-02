@@ -41,7 +41,7 @@ const Nav = () => {
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="/"
                   id="navbarDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -71,8 +71,12 @@ const Nav = () => {
               <a className="nav-link" href="/family">
                 Our Team
               </a>
-              <a className="nav-link">Coming Products</a>
-              <a className="nav-link">Contact Us</a>
+              <a className="nav-link" href="/">
+                Coming Products
+              </a>
+              <a className="nav-link" href="/">
+                Contact Us
+              </a>
             </div>
           </div>
         </div>

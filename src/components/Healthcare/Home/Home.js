@@ -10,7 +10,8 @@ const Home = () => {
         <div className="title">
           <img src={Logo} alt="smart house" />
           <h1>Healthcare </h1>
-          <h1> Using AI</h1>
+          <h1> Using </h1>
+          <h1> Artificial Intelligence</h1>
         </div>
         <div className="smart_house">
           <img src={Health} alt="smart house" />
@@ -18,25 +19,27 @@ const Home = () => {
       </div>
       <div className="Healthcare">
         <div className="what">
-          <p id="question">What is the uee of AI in Healthcare?</p>
+          <p id="question">What is the AI in Healthcare?</p>
           <p id="ans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariaturs. Excepteur sint occaecat cupidatat
+            AI in healthcare is an application of machine learning (ML)
+            algorithms and other cognitive technologies in medical settings. In
+            the simplest sense, AI is when computers and other machines mimic
+            human cognition, and are capable of learning, thinking, and making
+            decisions or taking actions. AI in healthcare, then, is the use of
+            machines to analyze and act on medical data, usually with the goal
+            of predicting a particular outcome.
           </p>
         </div>
         <div className="what1">
-          <p id="question">How can we ?</p>
+          <p id="question">What is its use ?</p>
           <p id="ans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariaturs. Excepteur sint occaecat cupidatat
+            Rather than robotics, AI in healthcare focuses on large amount of
+            data that can save lives by analyzing them. This includes treatment
+            methods and their outcomes, survival rates and speed of care
+            gathered across millions of patients, geographical locations and
+            innumerable and sometimes interconnected health conditions. These
+            computing power can easily analyze the trends in data and can make
+            predictions which a normal human brain can’t.
           </p>
         </div>
       </div>
