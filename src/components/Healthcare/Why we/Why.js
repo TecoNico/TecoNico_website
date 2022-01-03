@@ -28,6 +28,14 @@ const Why = () => {
             <herf>
               ttps://medium.com/@TecoNico/do-you-know-how-artificial-intelligence-is-helping-in-healthcare-52bf0bd3fd6e
             </> */}
+            <div className="health_readmore">
+              <a
+                href="https://medium.com/@TecoNico/do-you-know-how-artificial-intelligence-is-helping-in-healthcare-52bf0bd3fd6e"
+                target="_blank"
+              >
+                {"Read more"}
+              </a>
+            </div>
           </p>
         </div>
         <div className="what ">

@@ -86,19 +86,13 @@
   padding-right: 8px;
   color: #ddd;
 }
-#footer .footer-top .footer-links a {
+#footer .footer-top .footer-links a:hover {
   color: #eee;
 }
-a:hover {
+/* a:hover {
   color: #18d26e;
-}
-/* a {
-  color: #18d26e;
-  transition: 0.5s;
 } */
-a:hover {
-  color: #18d26e;
-}
+
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
