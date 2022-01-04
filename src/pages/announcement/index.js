@@ -11,6 +11,7 @@ export default function Announcement() {
       <Introduce />
       <Ourvision />
       <Team />
+      
     </>
   );
 }

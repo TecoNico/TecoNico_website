@@ -71,10 +71,7 @@ const Nav = () => {
               <a className="nav-link" href="/family">
                 Our Team
               </a>
-              <a className="nav-link" href="/">
-                Coming Products
-              </a>
-              <a className="nav-link" href="/">
+              <a className="nav-link" href="/contact">
                 Contact Us
               </a>
             </div>
