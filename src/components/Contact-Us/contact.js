@@ -1,85 +1,114 @@
-import React from 'react';
-import  { FaMapMarkerAlt } from 'react-icons/fa';
-import  { FaPhoneAlt } from 'react-icons/fa';
-import  { FaMailBulk } from 'react-icons/fa';
-/* import image from "../../Assets/image.png";*/
+import React from "react";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
+import image from "../../Assets/contact.png";
 import "./contact.css";
 
 const contact = () => {
-    return (
-        <div className="contact">
-     
-            <div className="content">
-             <h2 align="center">Contact Us</h2>
-                <p> We at TecoNico Pvt. Ltd. try our best to solve modern-day problems
+  return (
+    <>
+      {/* <img src={image} alt="Healthcare" className="contact_image" /> */}
+      <div className="contact_section">
+        <div className="contact_us" style={{ color: "white" }}>
+          <h2>Contact US</h2>
+          <p>
+            {" "}
+            We at TecoNico Pvt. Ltd. try our best to solve modern-day problems
             with smart solutions using advanced technology. Our main tools are
             AI and ML technology that provides the effortless result with utmost
             accuracy.We provide different technologies in both hardware and
             software solutions. Our main aim to provide best of best products
             and services to clients.Quality is the only thing by which TecoNico
             is alive. Our team follow passion in their work, support in the team
-            work, professionalism with clients.</p>
+            work, professionalism with clients.
+          </p>
+        </div>
+        <div className="contact_info">
+          <div className="contact_info_left">
+            <div className="icons">
+              <FaMapMarkerAlt color="white" size={"40px"} />
+              <div>
+                <h3 style={{ color: "Cyan" }}>Address</h3>
+                <p style={{ color: "white" }}> 452-adress sm with client</p>
+              </div>
             </div>
-            <div className="container">
-                <div className="contactinfo">
-                   <div className="box">
-                       <div className="icon">
-                       <FaMapMarkerAlt/>
-                       </div>
-                       <div className="text">
-                           <h3>Address</h3>
-                           <p>Delhi , India</p>
-                       </div>
-                       <div className="box">
-                       <div className="icon">
-                       < FaMailBulk />
-                       </div>
-                       <div className="text">
-                           <h3>Email</h3>
-                           <p>xyz@gmail.com</p>
-                       </div>
-                       </div>
-                       <div className="box">
-                       <div className="icon">
-                      <FaPhoneAlt/>
-                       </div>
-                       <div className="text">
-                           <h3>Phone</h3>
-                           <p>8739387394</p>
-                       </div>
-                       </div>
-                   </div>
-                   <div className="contactform">
-                       <form><label>
-                           <h2>Send Message</h2>
-                           </label>
-                           <div className="inputbox">
-                           <label>
-                               <input type="text" name="" required="required" />
-                                   <span>Full Name</span>
-                                   </label>
-                           </div>
-                           <div className="inputbox">
-                           <label>
-                               <input type="text" name="" required="required" />
-                                   <span>Email</span>
-                                   </label>
-                           </div>
-                           <div className="inputbox">
-                               <label>
-                               <textarea  required="required"></textarea>
-                               <span>Type Your Message...</span>
-                               </label>
-                           </div>
-                           <div className="inputbox">
-                               <input type="submit" name="" value="Send"/>
-                           </div>
-                       </form>
-                   </div>
+            <div className="icons">
+              <FaPhoneAlt color="white" size={"40px"} />
+              <div>
+                <h3 style={{ color: "Cyan" }}>Phone</h3>
+                <p style={{ color: "white" }}> +9184675 6456 2</p>
+              </div>
+            </div>
+            <div className="icons">
+              <FaMailBulk color="white" size={"40px"} />
+              <div>
+                <h3 style={{ color: "Cyan" }}>Email</h3>
+                <p style={{ color: "white" }}> teconicopvtltd@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div className="contact_info_right">
+            <div className="contact_form">
+              <h1>Send Message</h1>
+              <form id="contact-form" class="form-horizontal" role="form">
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="NAME"
+                      name="name"
+                      //   value=""
+                      required
+                    />
+                  </div>
                 </div>
-            </div>
-            </div>
-    )
-}
 
-export default contact
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="EMAIL"
+                      name="email"
+                      //   value=""
+                      required
+                    />
+                  </div>
+                </div>
+
+                <textarea
+                  class="form-control"
+                  rows="2"
+                  cols="40"
+                  placeholder="MESSAGE"
+                  name="message"
+                  required
+                ></textarea>
+
+                <button
+                  class="btn send-button"
+                  id="submit"
+                  type="submit"
+                  value="SEND"
+                  style={{ backgroundColor: "cyan", color: "white" }}
+                  //   background-color="cyan"
+                >
+                  <div class="alt-send-button">
+                    <i class="fa fa-paper-plane"></i>
+                    <span class="send-text">SEND</span>
+                  </div>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default contact;
