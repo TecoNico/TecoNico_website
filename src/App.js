@@ -29,7 +29,12 @@ function App() {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/healthcare" element={<HealthCare />} />
         <Route exact path="/homeautomation" element={<HomeAutomation />} />
-        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/contact" element={
+            <Fragment>
+              <Nav2 />
+              <Contact />
+            </Fragment>
+          } />
       </Routes>
       <Footer />
     </Router>

@@ -89,6 +89,9 @@
 #footer .footer-top .footer-links a:hover {
   color: #eee;
 }
+#footer .footer-top .footer-links a {
+  color: #eee;
+}
 /* a:hover {
   color: #18d26e;
 } */

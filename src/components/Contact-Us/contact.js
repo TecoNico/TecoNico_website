@@ -2,7 +2,7 @@ import React from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
-import image from "../../Assets/contact.png";
+import image from "../../Assets/image.png";
 import "./contact.css";
 
 const contact = () => {
@@ -12,17 +12,6 @@ const contact = () => {
       <div className="contact_section">
         <div className="contact_us" style={{ color: "white" }}>
           <h2>Contact US</h2>
-          <p>
-            {" "}
-            We at TecoNico Pvt. Ltd. try our best to solve modern-day problems
-            with smart solutions using advanced technology. Our main tools are
-            AI and ML technology that provides the effortless result with utmost
-            accuracy.We provide different technologies in both hardware and
-            software solutions. Our main aim to provide best of best products
-            and services to clients.Quality is the only thing by which TecoNico
-            is alive. Our team follow passion in their work, support in the team
-            work, professionalism with clients.
-          </p>
         </div>
         <div className="contact_info">
           <div className="contact_info_left">

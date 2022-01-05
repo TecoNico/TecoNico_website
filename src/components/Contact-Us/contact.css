@@ -1,7 +1,7 @@
 .contact_section {
   padding: 4% 8%;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("../../Assets/contact.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../../Assets/image.png");
   background-position: center top;
   background-repeat: no-repeat;
   width: 100%;
@@ -13,7 +13,7 @@
 
 .contact_info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 5% 0;
 }
@@ -43,10 +43,10 @@
 }
 
 /* .contact_us p {
-  display: flex;
-  justify-content: center;
-  margin: 0 5%;
-} */
+    display: flex;
+    justify-content: center;
+    margin: 0 5%;
+  } */
 @media only screen and (max-width: 768px) {
   .contact_info {
     flex-direction: column;
