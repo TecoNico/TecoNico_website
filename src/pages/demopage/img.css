@@ -9,7 +9,7 @@
   height: auto;
 } */
 
-.container .next {
+.next {
   position: absolute;
   top: 68%;
   left: 92%;
@@ -22,21 +22,8 @@
   border: transparent;
   cursor: pointer;
 }
-.container .nextnext {
-  position: absolute;
-  top: 82%;
-  left: 92%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: transparent;
-  color: white;
 
-  padding: 40px 40px;
-  border: transparent;
-  cursor: pointer;
-}
-
-.container .prev {
+.prev {
   position: absolute;
   top: 68%;
   left: 84%;
@@ -49,16 +36,12 @@
   border: transparent;
   cursor: pointer;
 }
-.container .prevprev {
-  position: absolute;
-  top: 82%;
-  left: 84%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: transparent;
-  color: white;
 
-  padding: 40px 40px;
-  border: transparent;
-  cursor: pointer;
+@media only screen and (max-width: 768px) {
+  .prev {
+    padding: 7px 9px;
+  }
+  .next {
+    padding: 7px 9px;
+  }
 }
