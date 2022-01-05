@@ -71,6 +71,9 @@ const Nav = () => {
               <a className="nav-link" href="/family">
                 Our Team
               </a>
+              <a className="nav-link" href="/1">
+                Demo
+              </a>
               <a className="nav-link" href="/contact">
                 Contact Us
               </a>

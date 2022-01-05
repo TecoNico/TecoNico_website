@@ -8,14 +8,23 @@ import Blog from "./components/Blog/index";
 import { Footer } from "./components/Footer/Footer";
 import Nav2 from "./components/Navbar/Nav2";
 import { Fragment } from "react";
-import Contact  from "./components/Contact-Us/contact";
+import Contact from "./components/Contact-Us/contact";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route exact path="/" element={<Announcement />} />
-        <Route exact path="/1" element={<S1Route />} />
+        <Route
+          exact
+          path="/1"
+          element={
+            <Fragment>
+              <Nav2 />
+              <S1Route />
+            </Fragment>
+          }
+        />
         <Route
           exact
           path="/family"
@@ -29,12 +38,16 @@ function App() {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/healthcare" element={<HealthCare />} />
         <Route exact path="/homeautomation" element={<HomeAutomation />} />
-        <Route exact path="/contact" element={
+        <Route
+          exact
+          path="/contact"
+          element={
             <Fragment>
               <Nav2 />
               <Contact />
             </Fragment>
-          } />
+          }
+        />
       </Routes>
       <Footer />
     </Router>

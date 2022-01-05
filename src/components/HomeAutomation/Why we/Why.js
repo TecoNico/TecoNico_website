@@ -25,6 +25,12 @@ const Why = () => {
             It make your life easier by its scheduler and timer functions, so it
             can automatically turn on/off your devices.
           </p>
+
+          <div className="home_readmore">
+            <a href="/1" target="_blank">
+              {"Demo"}
+            </a>
+          </div>
         </div>
         <div className="what1 ">
           <h1 id="video">

@@ -24,10 +24,6 @@ const Why = () => {
             application, upload your reports and CT Scans and they will generate
             your report. It will also give you a percentage of your medical
             seriousness. This app covers almost all the health-related issues.
-            {/* Read More -{" "}
-            <herf>
-              ttps://medium.com/@TecoNico/do-you-know-how-artificial-intelligence-is-helping-in-healthcare-52bf0bd3fd6e
-            </> */}
             <div className="health_readmore">
               <a
                 href="https://medium.com/@TecoNico/do-you-know-how-artificial-intelligence-is-helping-in-healthcare-52bf0bd3fd6e"

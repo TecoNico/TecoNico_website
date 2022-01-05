@@ -11,8 +11,8 @@ const S1route = () => {
   const [Switch2, setSwitch2] = useState(true);
   const [Switch3, setSwitch3] = useState(true);
   const [Switch4, setSwitch4] = useState(true);
-  const [check, setCheck] = useState(true);
-  const [check2, setCheck2] = useState(true);
+  const [check1, setCheck1] = useState(false);
+  const [check2, setCheck2] = useState(false);
 
   // const redirect = () => {
   //   navigate("/2");
@@ -59,53 +59,68 @@ const S1route = () => {
         }}
         alt="No Lights"
       />
+
       <button
         onClick={() => {
-          if (check) {
-            setSwitch3(false);
+          if (check1 === false && check2 === false) {
             setSwitch1(true);
             setSwitch2(true);
+            setSwitch3(false);
             setSwitch4(true);
-            setCheck(false);
-          } else if (!check) {
+            setCheck1(true);
+          } else if (check1 === true && check2 === false) {
             setSwitch1(false);
             setSwitch2(true);
-            setSwitch4(true);
             setSwitch3(true);
-            setCheck(true);
-          }
-          if (check2 === false && check === false) {
+            setSwitch4(true);
+            setCheck1(false);
+          } else if (check1 === false && check2 === true) {
             setSwitch1(true);
             setSwitch2(true);
-            setSwitch4(false);
             setSwitch3(true);
+            setSwitch4(false);
+            setCheck1(true);
+            // setCheck2(false);
+          } else if (check1 === true && check2 === true) {
+            setSwitch1(true);
+            setSwitch2(false);
+            setSwitch3(true);
+            setSwitch4(true);
+            setCheck1(false);
           }
         }}
         className="prev"
       ></button>
+
       <button
+        className="next"
         onClick={() => {
-          if (check2) {
-            setSwitch3(true);
+          if (check1 === false && check2 === false) {
             setSwitch1(true);
             setSwitch2(false);
+            setSwitch3(true);
             setSwitch4(true);
-            setCheck2(false);
-          } else if (!check2) {
+            setCheck2(true);
+          } else if (check1 === false && check2 === true) {
             setSwitch1(false);
             setSwitch2(true);
-            setSwitch4(true);
             setSwitch3(true);
-            setCheck2(true);
-          }
-          if (check2 === false && check === false) {
+            setSwitch4(true);
+            setCheck2(false);
+          } else if (check1 === true && check2 === false) {
             setSwitch1(true);
             setSwitch2(true);
-            setSwitch4(false);
             setSwitch3(true);
+            setSwitch4(false);
+            setCheck2(true);
+          } else if (check1 === true && check2 === true) {
+            setSwitch1(true);
+            setSwitch2(true);
+            setSwitch3(false);
+            setSwitch4(true);
+            setCheck2(false);
           }
         }}
-        className="next"
       ></button>
     </div>
   );
