@@ -4,7 +4,9 @@ import YoutubeEmbed from "../../Youtube/YoutubeEmbed";
 const Why = () => {
   return (
     <div className="Why_me">
-      <h1 id="mb">Why Me?</h1>
+      <h1 id="mb" style={{ marginBottom: "3%" }}>
+        Why Me?
+      </h1>
       {/*<div className="container">
         <Affordable />
         <Affordable />
@@ -26,11 +28,11 @@ const Why = () => {
             can automatically turn on/off your devices.
           </p>
 
-          <div className="home_readmore">
+          {/* <div className="home_readmore">
             <a href="/1" target="_blank">
               {"Demo"}
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="what1 ">
           <h1 id="video">

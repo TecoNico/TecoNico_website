@@ -1,8 +1,18 @@
-.ourProduct {
+.DemoProduct {
+  display: flex;
+  flex-direction: column;
+}
+.demoImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.demoImg img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  height: 500px;
   border: 25px solid #efeeee;
   border-radius: 40px;
   margin: 2%;
@@ -10,48 +20,34 @@
   outline: 5px solid #d1d1d1;
   box-shadow: 11px 10px 9px -3px rgba(0, 0, 0, 25%) inset;
 }
-
-.teconicoHome h2 {
-  color: red;
-}
-#title {
+#title2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4%;
-}
-.teconicoHome p {
-  color: #553355;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.teconicoHome {
-  margin: 0% 10% 0% 6%;
-}
-
-.productImg {
-  display: flex;
-  justify-content: center;
-  margin-right: 8%;
+  margin: 3%;
 }
 @media only screen and (max-width: 768px) {
-  .ourProduct {
+  .DemoProduct {
     display: block;
     text-align: center;
     width: 100%;
   }
-  .teconicoHome {
-    margin: 0px 0px 0px 0px;
+  .demoImg img {
+    width: 100%;
+    height: auto;
   }
-  .productImg {
+  .demoImg {
     display: flex;
     justify-content: center;
     width: 100%;
     margin: auto;
     height: auto;
   }
-  .productImg img {
-    width: 100%;
+  .demoImg img {
+    border: 15px solid #efeeee;
+    border-radius: 27px;
+    margin: 2%;
+    outline-offset: -15px;
+    outline: 5px solid #d1d1d1;
   }
 }

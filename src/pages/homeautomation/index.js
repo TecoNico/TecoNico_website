@@ -5,6 +5,7 @@ import OurProduct2 from "../../components/HomeAutomation/OurProduct/OurProduct2"
 import Home from "../../components/HomeAutomation/Home/Home";
 import Nav2 from "../../components/Navbar/Nav2";
 import Contact from "../../components/Contact-Us/contact";
+import Demo from "../../components/HomeAutomation/Demo/Demo";
 
 export default function HomeAutomation() {
   return (
@@ -12,8 +13,9 @@ export default function HomeAutomation() {
       <Nav2 />
       <Home />
       <Why />
+      <Demo />
       <OurProduct />
-      <OurProduct2 />
+
       <Contact />
     </div>
   );

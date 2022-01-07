@@ -1,5 +1,6 @@
 import React from "react";
 import Product1 from "../../../Assets/Product1.png";
+import OurProduct2 from "./OurProduct2";
 import "./ourProduct.css";
 const OurProduct = () => {
   return (
@@ -22,6 +23,7 @@ const OurProduct = () => {
           <img src={Product1} alt="smart house" />
         </div>
       </div>
+      <OurProduct2 />
     </>
   );
 };
