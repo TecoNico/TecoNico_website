@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "healthcare",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,29 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+=======
+  "name": "lighthouse",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "react": "^17.0.2",
+    "react-animations": "^1.0.0",
+    "react-dom": "^17.0.2",
+    "react-dropdown": "^1.9.2",
+    "react-elfsight-widget": "^1.0.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.1.1",
+    "react-scripts": "4.0.3",
+    "react-strap": "^0.0.1",
+    "reactstrap": "^9.0.1",
+>>>>>>> master
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +58,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "react-app-rewired-esbuild": "^0.0.9"
+>>>>>>> master
   }
 }

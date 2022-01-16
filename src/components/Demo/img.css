@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* .container img {
+  width: 100%;
+  height: auto;
+} */
+
+.container .next {
+  position: absolute;
+  top: 68%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+
+  padding: 40px 40px;
+  border: transparent;
+  cursor: pointer;
+}
+
+.container .prev {
+  position: absolute;
+  top: 68%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+
+  padding: 40px 40px;
+  border: transparent;
+  cursor: pointer;
+}
