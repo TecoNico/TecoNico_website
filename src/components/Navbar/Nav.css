@@ -7,6 +7,12 @@
   font-size: 17px;
 }
 
+.dropdown-menu.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .bg-img {
   min-height: 40rem;
   background-color: #434043;

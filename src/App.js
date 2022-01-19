@@ -9,6 +9,8 @@ import { Footer } from "./components/Footer/Footer";
 import Nav2 from "./components/Navbar/Nav2";
 import { Fragment } from "react";
 import Contact from "./components/Contact-Us/contact";
+import Attendence from "./pages/Attendence/index";
+import Drowsiness from "./pages/Drowsiness/index";
 
 function App() {
   return (
@@ -38,6 +40,8 @@ function App() {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/healthcare" element={<HealthCare />} />
         <Route exact path="/homeautomation" element={<HomeAutomation />} />
+        <Route exact path="/attendencesystem" element={<Attendence />} />
+        <Route exact path="/Drowsiness" element={<Drowsiness />} />
         <Route
           exact
           path="/contact"

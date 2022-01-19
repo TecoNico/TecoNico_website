@@ -7,15 +7,8 @@ const Why = () => {
       <h1 id="mb" style={{ marginBottom: "3%" }}>
         Why Me?
       </h1>
-      {/*<div className="container">
-        <Affordable />
-        <Affordable />
-        <Affordable />
-        <Affordable />
-        <Affordable />
-        <Affordable />
-      </div> */}
-      <div className="homeAutomation1">
+
+      <div className="homeAutomation">
         <div className="what1">
           <p id="work1">How our product works?</p>
           <p id="sample">
@@ -27,12 +20,6 @@ const Why = () => {
             It make your life easier by its scheduler and timer functions, so it
             can automatically turn on/off your devices.
           </p>
-
-          {/* <div className="home_readmore">
-            <a href="/1" target="_blank">
-              {"Demo"}
-            </a>
-          </div> */}
         </div>
         <div className="what1 ">
           <h1 id="video">

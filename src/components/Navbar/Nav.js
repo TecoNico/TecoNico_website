@@ -59,7 +59,7 @@ const Nav = () => {
                   Products
                 </a>
                 <ul
-                  class="dropdown-menu"
+                  class="dropdown-menu "
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
@@ -70,6 +70,16 @@ const Nav = () => {
                   <li>
                     <a class="dropdown-item" href="/homeautomation">
                       HomeAutomation
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/attendencesystem">
+                      Attendence System
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/Drowsiness">
+                      Drowsiness Detection
                     </a>
                   </li>
                 </ul>
