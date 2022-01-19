@@ -1,4 +1,5 @@
 import React from "react";
+import { Ourproject } from "../../components/HomePage/Ourproject";
 import Introduce from "../../components/Introduce/Introduce";
 import Nav from "../../components/Navbar/Nav";
 import Ourvision from "../../components/OurVision/Ourvision";
@@ -10,8 +11,8 @@ export default function Announcement() {
       <Nav />
       <Introduce />
       <Ourvision />
+      <Ourproject />
       <Team />
-      
     </>
   );
 }
