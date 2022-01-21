@@ -114,7 +114,7 @@ const Nav = () => {
               >
                 Contact Us
               </a>
-              <span>
+              <span className="span">
                 <a href="/1"></a>
               </span>
             </div>

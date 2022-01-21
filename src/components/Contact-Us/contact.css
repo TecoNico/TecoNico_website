@@ -10,7 +10,11 @@
 .contact_us {
   text-align: center;
 }
-
+.contact_us h2 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
 .contact_info {
   display: flex;
   justify-content: space-around;
@@ -42,17 +46,24 @@
   margin-left: 10px;
 }
 
-/* .contact_us p {
-    display: flex;
-    justify-content: center;
-    margin: 0 5%;
-  } */
+.contact-btn {
+  background: black;
+  color: white;
+}
+.btn:hover {
+  background-color: red;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
 @media only screen and (max-width: 768px) {
   .contact_info {
     flex-direction: column;
   }
   .contact_info_right {
     width: 100%;
+  }
+  #hide {
+    padding: 2%;
   }
   .contact_info_left {
     display: none;

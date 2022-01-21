@@ -17,41 +17,25 @@ export const Ourproject = () => {
       <div className="OurProducts">
         <div className="Products item1">
           <a href="/homeautomation">
-            <img
-              src={Smart}
-              alt="home-automation"
-              style={{ width: "100%", height: "80%" }}
-            />
+            <img src={Smart} className="img-main1" alt="home-automation" />
             <img src={Click} class="img-hov" alt="Card Front" />
           </a>
         </div>
         <div className="Products item2">
           <a href="/attendenceSystem">
-            <img
-              src={Attendence}
-              alt="attendence"
-              style={{ width: "100%", height: "80%" }}
-            />
+            <img src={Attendence} className="img-main2" alt="attendence" />
             <img src={Click} class="img-hov" alt="Card Front" />
           </a>
         </div>
         <div className="Products item3">
           <a href="/Drowsiness">
-            <img
-              src={Drowsiness}
-              alt="Drownsiness Detection"
-              style={{ width: "100%", height: "80%" }}
-            />
+            <img src={Drowsiness} className="img-main3" alt="Drownsiness" />
             <img src={Click} class="img-hov" alt="Card Front" />
           </a>
         </div>
         <div className="Products item4">
           <a href="/healthcare">
-            <img
-              src={Health}
-              alt="HealthCare"
-              style={{ width: "100%", height: "80%" }}
-            />
+            <img src={Health} alt="HealthCare" className="img-main4" />
             <img src={Click} class="img-hov" alt="Card Front" />
           </a>
         </div>

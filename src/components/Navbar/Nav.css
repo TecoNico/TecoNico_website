@@ -111,8 +111,8 @@
   .logo2 {
     left: 25%;
   }
-  span a:before,
-  span a:after {
+  .span a:before,
+  .span a:after {
     margin: 0 123px;
   }
   .nav_black {
@@ -144,7 +144,7 @@
   justify-content: center;
   background: #fff;
 } */
-span {
+.span {
   position: relative;
   display: inline-flex;
   width: 115px;
@@ -152,7 +152,7 @@ span {
   /* margin: 0 15px; */
   perspective: 1000px;
 }
-span a {
+.span a {
   font-size: 19px;
   letter-spacing: 1px;
   transform-style: preserve-3d;
@@ -160,8 +160,8 @@ span a {
   transition: transform 0.25s;
   font-family: "Montserrat", sans-serif;
 }
-span a:before,
-span a:after {
+.span a:before,
+.span a:after {
   position: absolute;
   content: "DEMO";
   height: 51px;
@@ -173,15 +173,15 @@ span a:after {
   box-sizing: border-box;
   border-radius: 5px;
 }
-span a:before {
+.span a:before {
   color: #fff;
   background: #e3332c;
   transform: rotateY(0deg) translateZ(25px);
 }
-span a:after {
+.span a:after {
   color: #e3332c;
   transform: rotateX(90deg) translateZ(25px);
 }
-span a:hover {
+.span a:hover {
   transform: translateZ(-25px) rotateX(-90deg);
 }

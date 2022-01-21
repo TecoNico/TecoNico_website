@@ -9,9 +9,16 @@ const contact = () => {
   return (
     <>
       {/* <img src={image} alt="Healthcare" className="contact_image" /> */}
+      <h1
+        align="center"
+        id="hide"
+        style={{ visibility: "hidden", padding: "1%" }}
+      >
+        Welcome to Teconico
+      </h1>
       <div className="contact_section">
         <div className="contact_us" style={{ color: "white" }}>
-          <h2>Contact US</h2>
+          <h2>Contact Us</h2>
         </div>
         <div className="contact_info">
           <div className="contact_info_left">
@@ -79,11 +86,11 @@ const contact = () => {
                 ></textarea>
 
                 <button
-                  class="btn send-button"
+                  class="btn send-button contact-btn"
                   id="submit"
                   type="submit"
                   value="SEND"
-                  style={{ backgroundColor: "cyan", color: "white" }}
+
                   //   background-color="cyan"
                 >
                   <div class="alt-send-button">

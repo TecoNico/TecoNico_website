@@ -2,10 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 94%;
-  margin: 5% 3%;
-  min-height: 630px;
-  height: 100vh;
+  width: 75%;
+  margin: 5% 12%;
+  min-height: 550px;
+  height: 550px;
   border: 25px solid #d8382a;
   background-color: #d8382a;
   border-radius: 40px;
@@ -13,31 +13,39 @@
   outline: 5px solid #e3766d;
 }
 
-.Products {
-  margin: 2% 12%;
+.img-main1 {
+  width: 90%;
+  height: 80%;
+  margin: 20px 0px 0px 20px;
 }
-
+.img-main2 {
+  width: 90%;
+  height: 80%;
+  margin: 20px 0px 0px 20px;
+}
+.img-main3 {
+  width: 90%;
+  height: 70%;
+  margin: 0px 0px 0px 20px;
+}
+.img-main4 {
+  width: 90%;
+  height: 69%;
+  margin: 0px 0px 0px 20px;
+}
 .Products img {
   border: 2px solid black;
   box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 20%);
   border-radius: 30px;
 }
-.item1:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s;
-}
-.item2:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s;
-}
-.item3:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s;
-}
+.item1:hover,
+.item2:hover,
+.item3:hover,
 .item4:hover {
   transform: scale(1.1);
   transition: transform 0.5s;
 }
+
 .Products:hover .img-hov {
   display: inline;
 }
@@ -52,22 +60,34 @@
   width: 15%;
 }
 
-/* .item2 {
-  background-color: green;
-  border-radius: 40px;
-}
-.item4 {
-  background-color: black;
-  border-radius: 40px;
-} */
 @media only screen and (max-width: 768px) {
   .OurProducts {
     grid-template-columns: 1fr;
     height: 100%;
+    width: 100%;
+    margin: 0;
+    width: 100%;
     grid-template-rows: 1fr;
   }
 
   .Products {
     margin: 0;
+  }
+  .img-main1 {
+    width: 100%;
+    margin: 0;
+  }
+  .img-main2 {
+    width: 100%;
+    margin: 0;
+  }
+  .img-main3 {
+    width: 100%;
+    height: 100%;
+    margin: 5px 0;
+  }
+  .img-main4 {
+    width: 100%;
+    margin: 50px 0 0 0;
   }
 }

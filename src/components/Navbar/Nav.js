@@ -27,7 +27,7 @@ const Nav = () => {
           show && "nav_black"
         }`}
       >
-        <div className={`logo ${show && "logo_blc"}`}>
+        <div className=" logo logo_blc">
           Teco<span>Nico</span>
         </div>
         <div className="container-fluid">
@@ -118,7 +118,7 @@ const Nav = () => {
                 Contact Us
               </a>
 
-              <span>
+              <span className="span">
                 <a href="/1"></a>
               </span>
             </div>
