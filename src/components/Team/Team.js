@@ -49,26 +49,31 @@ const Team = () => {
   ];
 
   return (
-    <div className="container-fluid">
-      <div className="OurTeam">
-        <div className="Team">
-          <p>Meet Our Team</p>
-        </div>
-        <div className="seperator"></div>
-        <div className="Member">
-          {team.map((team) => (
-            <Member
-              name={team.name}
-              role={team.role}
-              avatar={team.avatar}
-              fb={team.fb}
-              insta={team.insta}
-              ln={team.ln}
-            />
-          ))}
+    <>
+      <h1 align="center" style={{ visibility: "hidden", padding: "4%" }}>
+        Welcome to Teconico
+      </h1>
+      <div className="container-fluid">
+        <div className="OurTeam">
+          <div className="Team">
+            <p>Meet Our Team</p>
+          </div>
+          <div className="seperator"></div>
+          <div className="Member">
+            {team.map((team) => (
+              <Member
+                name={team.name}
+                role={team.role}
+                avatar={team.avatar}
+                fb={team.fb}
+                insta={team.insta}
+                ln={team.ln}
+              />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

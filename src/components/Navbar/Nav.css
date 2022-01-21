@@ -3,10 +3,32 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: cursive;
+  letter-spacing: 0.5px;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: black;
+}
+/* .nav_ {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+/* } */
 .dropdown-menu.show {
   display: flex;
   flex-direction: column;
@@ -14,25 +36,27 @@
   align-items: center;
 }
 .bg-img {
-  min-height: 40rem;
+  height: 100vh;
   background-color: #434043;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
 }
 .Homeimg {
   position: absolute;
-  width: 400px;
-  height: 340px;
   top: 18%;
-  right: 37%;
+  left: 50%;
+  width: 25%;
+  transform: translate(-50%, 0%);
 }
 .logo {
   position: absolute;
   font-size: 50px;
+  margin-left: 10px;
+  color: black;
   font-weight: bold;
-  left: 10px;
+}
+.logo_blc {
+  color: #fff;
 }
 .logo > span {
   color: #e3332c;
@@ -45,36 +69,119 @@
   color: white;
   bottom: 7%;
   font-size: 34px;
-  left: 37%;
+  font-weight: bold;
+  left: 50%;
+  transform: translate(-50%, 20%);
 }
 .slogan pre {
   font-style: italic;
 }
-
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: rgb(0 0 0 / 94%);
+}
+.nav-link2:hover,
+.nav-link2:focus {
+  color: white !important;
+}
+.nav_black {
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+  background-color: black;
+  transition: all 0.5s ease;
 }
 @media only screen and (max-width: 992px) {
   .navbar-nav {
     margin-left: 0;
   }
   .Homeimg {
-    display: none;
+    height: 37%;
+    width: auto;
   }
-  .bg-img {
-    min-height: 10%;
+  .navbar {
+    position: absolute;
   }
   .slogan {
-    display: none;
+    font-size: 25px;
   }
   .logo {
     left: 23%;
-    bottom: -10%;
   }
+  .logo2 {
+    left: 25%;
+  }
+  span a:before,
+  span a:after {
+    margin: 0 123px;
+  }
+  .nav_black {
+    position: absolute;
+  }
+}
+.logo2 > span {
+  color: #e3332c;
+}
+.logo2 {
+  position: absolute;
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
 }
 
 /* hambirger */
 .navbar-dark .navbar-toggler-icon {
   background-image: url("https://cdn-icons-png.flaticon.com/512/151/151917.png");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
+/* body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+} */
+span {
+  position: relative;
+  display: inline-flex;
+  width: 115px;
+  height: 55px;
+  /* margin: 0 15px; */
+  perspective: 1000px;
+}
+span a {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+span a:before,
+span a:after {
+  position: absolute;
+  content: "DEMO";
+  height: 51px;
+  width: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #e3332c;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before {
+  color: #fff;
+  background: #e3332c;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after {
+  color: #e3332c;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
 }

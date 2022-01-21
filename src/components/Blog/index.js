@@ -5,11 +5,14 @@ import "./style.css";
 const index = () => {
   return (
     <>
-      <Nav2 />
-      <section className="Blogs">
-        <div className="blog-head">
-          <h1>Welcome to Teconico</h1>
-        </div>
+      {" "}
+      <Nav2 style={{ marginBottom: "50px", display: "block" }} />
+      <div className="Blogs">
+        <h1 align="center" style={{ visibility: "hidden", padding: "25px" }}>
+          Welcome to Teconico
+        </h1>
+
+        <h1 align="center">Welcome to Teconico</h1>
         <div className="feeds">
           <ElfsightWidget widgetID="67455506-f879-4668-932c-7de7286b6ad7" />
           <div className="remover"></div>
@@ -31,7 +34,7 @@ const index = () => {
         <div className="Tweeter">
           <ElfsightWidget widgetID="5e3340c0-bbf5-46b0-8b37-d02a55405810" />
         </div>
-      </section>
+      </div>
     </>
   );
 };

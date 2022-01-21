@@ -4,6 +4,8 @@
   grid-template-rows: 1fr 1fr;
   width: 94%;
   margin: 5% 3%;
+  min-height: 630px;
+  height: 100vh;
   border: 25px solid #d8382a;
   background-color: #d8382a;
   border-radius: 40px;
@@ -12,7 +14,7 @@
 }
 
 .Products {
-  margin: 5%;
+  margin: 2% 12%;
 }
 
 .Products img {
@@ -61,6 +63,11 @@
 @media only screen and (max-width: 768px) {
   .OurProducts {
     grid-template-columns: 1fr;
+    height: 100%;
     grid-template-rows: 1fr;
+  }
+
+  .Products {
+    margin: 0;
   }
 }

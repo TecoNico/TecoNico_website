@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { FaAngleRight } from "react-icons/fa";
 
-import logo from "../../Assets/images/logo-black.png";
+import logo from "../../Assets/TeconicoWhitelogo.png";
 import fb from "../../Assets/icons/fb.png";
 import insta from "../../Assets/icons/insta.png";
 import linkdin from "../../Assets/icons/linkdin.png";

@@ -14,7 +14,7 @@
 }
 
 .OurTeam {
-  margin: 10% 5%;
+  margin: 0% 5%;
   display: flex;
 }
 
@@ -31,14 +31,14 @@
   width: 30%;
 }
 .Members h2 {
-  font-size: 15px;
+  font-size: 23px;
   font-weight: bold;
 }
 
 .Members p {
   font-weight: 400;
   color: black;
-  font-family: cursive;
+  /* font-family: cursive; */
 }
 
 .Team p {
@@ -56,12 +56,16 @@
 .Members:hover .social-icons {
   visibility: visible;
   color: white;
-  opacity: 0.8;
-  transition: 0.5s ease;
-  transform: translate(0%, -270%);
+  transition: 0.5s ease-out;
+  transform: translate(0%, -260%);
 }
 .social-icons a {
   color: white;
+  margin: 9px;
+}
+
+.social-icons > a:hover {
+  color: black !important;
 }
 .Members:hover {
   opacity: 1;
@@ -76,8 +80,7 @@
   opacity: 1;
   transition: 0.5s ease;
   color: white;
-  font-family: sans-serif;
-  transform: translate(0%, -150%);
+  transform: translate(0%, -50%);
 }
 .Members:hover p {
   opacity: 1;

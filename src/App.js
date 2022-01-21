@@ -37,7 +37,16 @@ function App() {
             </Fragment>
           }
         />
-        <Route exact path="/blog" element={<Blog />} />
+        <Route
+          exact
+          path="/blog"
+          element={
+            <Fragment>
+              {/* <Nav2 /> */}
+              <Blog />
+            </Fragment>
+          }
+        />
         <Route exact path="/healthcare" element={<HealthCare />} />
         <Route exact path="/homeautomation" element={<HomeAutomation />} />
         <Route exact path="/attendencesystem" element={<Attendence />} />

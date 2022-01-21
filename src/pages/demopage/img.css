@@ -1,47 +1,81 @@
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
+.Demo_Section {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-around;
 }
-
+.Demo_Section_img {
+  width: 65%;
+  height: 100%;
+}
+.Demo_Section_Remote {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
 /* .container img {
   width: 100%;
   height: auto;
 } */
-
+.Demo_Section_img img {
+  border: 25px solid #efeeee;
+  border-radius: 40px;
+  outline-offset: -29px;
+  outline: 5px solid #d1d1d1;
+  box-shadow: 11px 10px 9px -3px rgb(225 49 49 / 25%);
+}
+.Demo_Section_Remote img {
+  width: 73%;
+  border: 25px solid #efeeee;
+  border-radius: 40px;
+  outline-offset: -29px;
+  outline: 5px solid #d1d1d1;
+  box-shadow: 14px 17px 13px 7px rgb(0 0 0 / 25%);
+}
 .next {
   position: absolute;
-  top: 68%;
-  left: 92%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  top: 46%;
+  left: 25%;
+  background-color: black;
+  /* color: white; */
   background-color: transparent;
-  color: white;
-
-  padding: 40px 40px;
+  padding: 11%;
   border: transparent;
   cursor: pointer;
 }
 
 .prev {
   position: absolute;
-  top: 68%;
-  left: 84%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  top: 46%;
+  left: 52%;
+  background-color: red;
+  /* color: white; */
   background-color: transparent;
-  color: white;
-
-  padding: 40px 40px;
+  padding: 11%;
   border: transparent;
   cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
-  .prev {
-    padding: 7px 9px;
+  .Demo_Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .next {
-    padding: 7px 9px;
+  .Demo_Section_img {
+    width: 100%;
+  }
+  .Demo_Section_img img {
+    border: 15px solid #efeeee;
+    border-radius: 27px;
+    margin: 2%;
+    outline-offset: -15px;
+    outline: 5px solid #d1d1d1;
+  }
+  .Demo_Section_Remote img {
+    border: 15px solid #efeeee;
+    border-radius: 27px;
+    margin: 2%;
+    outline-offset: -15px;
+    outline: 5px solid #d1d1d1;
   }
 }
