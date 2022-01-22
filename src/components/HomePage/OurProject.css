@@ -1,53 +1,13 @@
 .OurProducts {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 75%;
-  margin: 5% 12%;
-  min-height: 550px;
-  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
   border: 25px solid #d8382a;
   background-color: #d8382a;
   border-radius: 40px;
+  margin: 3% 10%;
+  width: 75%;
   outline-offset: -20px;
   outline: 5px solid #e3766d;
-}
-
-.img-main1 {
-  width: 90%;
-  height: 80%;
-  margin: 20px 0px 0px 20px;
-}
-.img-main2 {
-  width: 90%;
-  height: 80%;
-  margin: 20px 0px 0px 20px;
-}
-.img-main3 {
-  width: 90%;
-  height: 70%;
-  margin: 0px 0px 0px 20px;
-}
-.img-main4 {
-  width: 90%;
-  height: 69%;
-  margin: 0px 0px 0px 20px;
-}
-.Products img {
-  border: 2px solid black;
-  box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 20%);
-  border-radius: 30px;
-}
-.item1:hover,
-.item2:hover,
-.item3:hover,
-.item4:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s;
-}
-
-.Products:hover .img-hov {
-  display: inline;
 }
 .img-hov {
   display: none;
@@ -59,35 +19,45 @@
   z-index: 99;
   width: 15%;
 }
+.OurProducts .Products {
+  width: 50%;
+  height: 14rem;
+}
+.img-main2,
+.img-main1,
+.img-main3,
+.img-main4 {
+  width: calc(100% - (20px * 2));
+  height: calc(100% - (20px * 2));
+  margin: 20px;
+
+  border: 2px solid black;
+  box-shadow: 12px 12px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 30px;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+.Products:hover .img-hov {
+  display: inline;
+}
 
 @media only screen and (max-width: 768px) {
   .OurProducts {
-    grid-template-columns: 1fr;
-    height: 100%;
+    flex-direction: column;
     width: 100%;
     margin: 0;
-    width: 100%;
-    grid-template-rows: 1fr;
   }
 
-  .Products {
-    margin: 0;
-  }
-  .img-main1 {
-    width: 100%;
-    margin: 0;
-  }
-  .img-main2 {
-    width: 100%;
-    margin: 0;
-  }
-  .img-main3 {
-    width: 100%;
-    height: 100%;
-    margin: 5px 0;
-  }
-  .img-main4 {
-    width: 100%;
-    margin: 50px 0 0 0;
+  .OurProducts .Products {
+    width: 95%;
+    margin: 8px 0px;
+    align-self: center;
   }
 }
