@@ -1,48 +1,120 @@
 import React from "react";
 import "./Home.css";
-import Drowsiness from "../../../Assets/drowsiness.png";
-import Logo from "../../../Assets/logo.png";
-
+import Drowsiness from "../../../Assets/drowsiness/Asset3.png";
+import Dotbg from "../../../Assets/drowsiness/bg.png";
+import ng from "../../../Assets/drowsiness/ng.png";
+import mdweb from "../../../Assets/drowsiness/mdweb.png";
+import nitin_profile from "../../../Assets/drowsiness/ngprofile.jpeg";
 const Home = () => {
+  const KnowMore = () => {
+    window.scrollTo({
+      top: 450,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
-      <div className="container">
-        <div className="title">
-          <img src={Logo} alt="smart house" />
-          <h1>Drowsiness Detection</h1>
-          <h1> Using </h1>
-          <h1> Artificial Intelligence</h1>
-        </div>
-        <div className="smart_house">
-          <img src={Drowsiness} style={{ width: "150%" }} alt="smart house" />
+      <div className="drowsiness-home ">
+        <div className="drowsiness-bg">
+          <div className="drowsiness-text">
+            <h1>DRIVE SAFE</h1>
+            <p>YOUR LIFE MATTERS</p>
+            <p>AND OTHERS AS WELL</p>
+            <div className="know-button" onClick={KnowMore}>
+              know more
+            </div>
+          </div>
         </div>
       </div>
-      <div className=" Drowsiness">
-        <div className="what">
-          <p id="question-Drowsiness" class>
-            What is the AI for Drowsiness Detection?
-          </p>
-          <p id="ans">
-            AI in healthcare is an application of machine learning (ML)
-            algorithms and other cognitive technologies in medical settings. In
-            the simplest sense, AI is when computers and other machines mimic
-            human cognition, and are capable of learning, thinking, and making
-            decisions or taking actions. AI in healthcare, then, is the use of
-            machines to analyze and act on medical data, usually with the goal
-            of predicting a particular outcome.
-          </p>
+
+      {/* ******************************** */}
+      <div className="drowsiness-why">
+        <div className="drowsiness-bg2">
+          <div class="hexagon hexagon1">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2"></div>
+            </div>
+          </div>
+
+          <div className="drowsiness-text1">
+            <h1>Why Drowsiness Detection system is important ?</h1>
+            <p style={{ fontWeight: "500" }}>
+              Drowsiness is a mojor cause of driver impairment leading to
+              crashes and fatalities. Research has established the ability to
+              detect drowsiness with various kind of sensors .We study drowsy
+              driving is a high-fidelity driving simulator and evaluated the
+              ability of an automotive production-ready driver Monitoring
+              system(DMS) to detect drowsy driving. Additionally, this feature
+              was compare 2 and combine with signals from vehicles and vehicle
+              based sensors.
+            </p>
+          </div>
+          <div className="drowsiness-hid">
+            <img src={Drowsiness} alt="drowsiness" />
+          </div>
         </div>
-        <div className="what1">
-          <p id="question-Drowsiness">What is its use ?</p>
-          <p id="ans">
-            Rather than robotics, AI in healthcare focuses on large amount of
-            data that can save lives by analyzing them. This includes treatment
-            methods and their outcomes, survival rates and speed of care
-            gathered across millions of patients, geographical locations and
-            innumerable and sometimes interconnected health conditions. These
-            computing power can easily analyze the trends in data and can make
-            predictions which a normal human brain can’t.
+      </div>
+      {/* dcdcd */}
+      <div className="Quote">
+        <div className="Quote_media">
+          <div className="Quote_avatar fit_media">
+            <img
+              src={nitin_profile}
+              alt="logo"
+              style={{ width: "100%", borderRadius: "20px" }}
+            />
+          </div>
+        </div>
+        <div className="Quote_body">
+          <p className="Quote_content">
+            {" "}
+            " Have directed officers to work on a plicy to include On-Board
+            Sleep Detection Sensors in Comercials Vehicles, at per with the
+            europian standards"
           </p>
+          <div className="Quote_author">-Nitin gathkari(@nitin_gatkari)</div>
+        </div>
+      </div>
+      {/* ******************************** */}
+
+      <div className="drowsiness-tweet">
+        <div className="drowsiness-bg3">
+          <div className="tweet-img">
+            <img className="img2" src={Dotbg} alt="logo" />
+            <a href="https://twitter.com/nitin_gadkari/status/1440236674349342736">
+              <img className="img1" src={ng} alt="logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* cdfdfdfsdfsf */}
+      <div className="drowsiness-why">
+        <div className="drowsiness-bg2">
+          <div class="hexagon hexagon2">
+            <div class="hexagon-in1">
+              <div class="hexagon-in3"></div>
+            </div>
+          </div>
+
+          <div className="drowsiness-text2">
+            <h1>Significant causes of road accident </h1>
+            <p style={{ fontWeight: "500" }}>
+              21 percent of all fatal accident are due to drowsy driving .60
+              percent of adult driver or about 168 million people have driving a
+              vehicle while feeling drowsy in their past years.
+            </p>{" "}
+            <p style={{ fontWeight: "500" }}>
+              About 37% or 103 million people have fallen asleep at the wheel
+              according to national sleep foundation(NSF) 2005 poll.
+            </p>
+            <div className="img3">
+              {" "}
+              <a href="https://www.medindia.net/patientinfo/drowsy-driving.htm">
+                <img src={mdweb} alt="logo" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>

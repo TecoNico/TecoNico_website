@@ -11,8 +11,7 @@ const index = () => {
       <>
         <Nav2 />
         <Home />
-        <Why />
-        <OurProduct />
+        
       </>
     </div>
   );
