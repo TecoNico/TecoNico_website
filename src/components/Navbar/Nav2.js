@@ -86,11 +86,11 @@ const Nav = () => {
                       HomeAutomation
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a class="dropdown-item" href="/attendencesystem">
                       Attendence System
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a class="dropdown-item" href="/Drowsiness">
                       Drowsiness Detection
@@ -98,9 +98,33 @@ const Nav = () => {
                   </li>
                 </ul>
               </li>
-              <a className={`nav-link   ${show && "nav-link2"} `} href="/blog">
-                Blogs
-              </a>
+              <li class="nav-item dropdown">
+                <a
+                  className={`nav-link  dropdown-toggle ${show && "nav-link2"}`}
+                  href="/"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blogs
+                </a>
+                <ul
+                  class="dropdown-menu "
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="/blog">
+                      Social Blogs
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/Drowsiness">
+                      Products Blogs
+                    </a>
+                  </li>
+                </ul>
+              </li>
               <a
                 className={`nav-link   ${show && "nav-link2"} `}
                 href="/family"
