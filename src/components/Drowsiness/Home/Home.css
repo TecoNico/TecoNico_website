@@ -1,5 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
  
 
@@ -59,6 +60,7 @@ background-image: -webkit-linear-gradient(30deg, rgb(0, 129, 119 ,1)  50%, #ffff
 }
 .drowsiness-text1{
   padding: 30px;
+  margin-left: 10%;
   background-color:white;
   box-shadow:8px 17px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
@@ -69,6 +71,7 @@ background-image: -webkit-linear-gradient(30deg, rgb(0, 129, 119 ,1)  50%, #ffff
 
 .drowsiness-text2{
   padding: 30px;
+  width: 90%;
 margin-left: 10%;
 }
 
