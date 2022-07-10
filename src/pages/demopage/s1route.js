@@ -7,23 +7,14 @@ import remote1 from "../../Assets/demo/UI/s1.png";
 import remote2 from "../../Assets/demo/UI/s2.png";
 import remote12 from "../../Assets/demo/UI/s1s2.png";
 import remote0 from "../../Assets/demo/UI/nopress.png";
-// import { useNavigate } from "react-router-dom";
 import "./img.css";
 const S1route = () => {
-  // let navigate = useNavigate();
   const [Switch1, setSwitch1] = useState(false);
   const [Switch2, setSwitch2] = useState(true);
   const [Switch3, setSwitch3] = useState(true);
   const [Switch4, setSwitch4] = useState(true);
   const [check1, setCheck1] = useState(false);
   const [check2, setCheck2] = useState(false);
-
-  // const redirect = () => {
-  //   navigate("/2");
-  // };
-  // const redirectBack = () => {
-  //   navigate("/3");
-  // };
 
   return (
     <>

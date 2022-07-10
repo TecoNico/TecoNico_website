@@ -3,18 +3,28 @@ body {
   overflow-x: hidden;
   justify-content: center;
 }
+*{
+  box-sizing: border-box;
+}
  
 
-.drowsiness-bg{
+#myVideo {
+  position: relative;
+  /* right: 0;
+  bottom: 0; */
+  width: 100%; 
+  height: 100%;
+  filter: brightness(0.5);
+}
+ /* .drowsiness-bg{
   background-image: linear-gradient(to left, rgba(255,0,0,0),#009587ed), url(../../../Assets/drowsiness/Asset4.png);
   background-color: #cccccc;
   height: 500px;
-  /* margin-top: ; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+}  */
 .drowsiness-text{
   position: absolute;
   bottom: 7px;
@@ -83,6 +93,7 @@ font-weight: bolder;
 }
 
 
+
 .tweet-img{
   display: flex;
   justify-content: center;
@@ -97,9 +108,9 @@ font-weight: bolder;
  background-image: -webkit-linear-gradient(30deg, rgb(0, 129, 119 ,1) 50%, #ffffff 50%);
 }
  .img1{
-  position: absolute;
-  width: 60%;
-  left: 16%;
+  /* position: absolute; */
+  width: 100%;
+  /* left: 16%; */
   box-shadow:8px 17px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
  }
  .img2{
@@ -233,6 +244,7 @@ font-weight: bolder;
     .drowsiness-text{
       top: 35vh;
       position: relative;
+      display: none;
     }
     .drowsiness-text1{
       background-color: transparent;

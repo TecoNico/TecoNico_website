@@ -11,6 +11,8 @@
   display: flex;
   position: relative;
   justify-content: center;
+  width: 32%;
+  height: 100%;
 }
 /* .container img {
   width: 100%;

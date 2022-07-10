@@ -5,6 +5,7 @@ import Dotbg from "../../../Assets/drowsiness/bg.png";
 import ng from "../../../Assets/drowsiness/ng.png";
 import mdweb from "../../../Assets/drowsiness/mdweb.png";
 import nitin_profile from "../../../Assets/drowsiness/ngprofile.jpeg";
+import demo from "../../../Assets/demo.mp4";
 const Home = () => {
   const KnowMore = () => {
     window.scrollTo({
@@ -16,6 +17,10 @@ const Home = () => {
     <>
       <div className="drowsiness-home ">
         <div className="drowsiness-bg">
+          <video loop autoPlay muted id="myVideo">
+            <source src={demo} type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
           <div className="drowsiness-text">
             <h1>DRIVE SAFE</h1>
             <p>YOUR LIFE MATTERS</p>
@@ -80,7 +85,7 @@ const Home = () => {
       <div className="drowsiness-tweet">
         <div className="drowsiness-bg3">
           <div className="tweet-img">
-            <img className="img2" src={Dotbg} alt="logo" />
+            {/* <img className="img2" src={Dotbg} alt="logo" /> */}
             <a href="https://twitter.com/nitin_gadkari/status/1440236674349342736">
               <img className="img1" src={ng} alt="logo" />
             </a>

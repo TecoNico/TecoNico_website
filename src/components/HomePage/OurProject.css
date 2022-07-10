@@ -1,11 +1,12 @@
 .OurProducts {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around ;
   border: 25px solid #d8382a;
   background-color: #d8382a;
   border-radius: 40px;
-  margin: 3% 10%;
-  width: 75%;
+  margin: 3% auto;
+  width: 80%;
   outline-offset: -20px;
   outline: 5px solid #e3766d;
 }
@@ -19,9 +20,9 @@
   z-index: 99;
   width: 15%;
 }
-.OurProducts .Products {
+ .Products {
   width: 50%;
-  height: 14rem;
+  height:300px;
 }
 .img-main2,
 .img-main1,
