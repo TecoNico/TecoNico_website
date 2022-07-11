@@ -19,140 +19,142 @@ const S1route = () => {
   return (
     <>
       {" "}
-      <h1 align="center" style={{ visibility: "hidden", padding: "4%" }}>
-        Welcome to Teconico
-      </h1>
-      <div className="Demo_Section">
-        <div className="Demo_Section_img">
-          <img
-            src={s1}
-            style={{
-              width: "100%",
-              height: "auto",
-              display: Switch1 ? "none" : "block",
-            }}
-            alt="No Lights"
-          />
-          <img
-            src={s2}
-            style={{
-              width: "100%",
-              height: "auto",
-              display: Switch2 ? "none" : "block",
-            }}
-            alt="No Lights"
-          />
-          <img
-            src={s3}
-            style={{
-              width: "100%",
-              height: "auto",
-              display: Switch3 ? "none" : "block",
-            }}
-            alt="No Lights"
-          />
-          <img
-            src={s4}
-            style={{
-              width: "100%",
-              height: "auto",
-              display: Switch4 ? "none" : "block",
-            }}
-            alt="No Lights"
-          />
-        </div>
-        <div className="Demo_Section_Remote">
-          <img
-            src={remote0}
-            style={{
-              display: Switch1 ? "none" : "block",
-            }}
-            alt="No Lights"
-          />
+      <div className="demo_container">
+        <h1 align="center" style={{ visibility: "hidden", padding: "2%" }}>
+          Welcome to Teconico
+        </h1>
+        <div className="Demo_Section">
+          <div className="Demo_Section_img">
+            <img
+              src={s1}
+              style={{
+                width: "100%",
+                height: "auto",
+                display: Switch1 ? "none" : "block",
+              }}
+              alt="No Lights"
+            />
+            <img
+              src={s2}
+              style={{
+                width: "100%",
+                height: "auto",
+                display: Switch2 ? "none" : "block",
+              }}
+              alt="No Lights"
+            />
+            <img
+              src={s3}
+              style={{
+                width: "100%",
+                height: "auto",
+                display: Switch3 ? "none" : "block",
+              }}
+              alt="No Lights"
+            />
+            <img
+              src={s4}
+              style={{
+                width: "100%",
+                height: "auto",
+                display: Switch4 ? "none" : "block",
+              }}
+              alt="No Lights"
+            />
+          </div>
+          <div className="Demo_Section_Remote">
+            <img
+              src={remote0}
+              style={{
+                display: Switch1 ? "none" : "block",
+              }}
+              alt="No Lights"
+            />
 
-          <img
-            src={remote1}
-            style={{
-              display: Switch2 ? "none" : "block",
-            }}
-            alt="No Lights"
-          />
-          <img
-            src={remote2}
-            style={{
-              display: Switch3 ? "none" : "block",
-            }}
-            alt="No Lights"
-          />
-          <img
-            src={remote12}
-            style={{
-              display: Switch4 ? "none" : "block",
-            }}
-            alt="No Lights"
-          />
-          <button
-            onClick={() => {
-              if (check1 === false && check2 === false) {
-                setSwitch1(true);
-                setSwitch2(true);
-                setSwitch3(false);
-                setSwitch4(true);
-                setCheck1(true);
-              } else if (check1 === true && check2 === false) {
-                setSwitch1(false);
-                setSwitch2(true);
-                setSwitch3(true);
-                setSwitch4(true);
-                setCheck1(false);
-              } else if (check1 === false && check2 === true) {
-                setSwitch1(true);
-                setSwitch2(true);
-                setSwitch3(true);
-                setSwitch4(false);
-                setCheck1(true);
-                // setCheck2(false);
-              } else if (check1 === true && check2 === true) {
-                setSwitch1(true);
-                setSwitch2(false);
-                setSwitch3(true);
-                setSwitch4(true);
-                setCheck1(false);
-              }
-            }}
-            className="prev"
-          ></button>
+            <img
+              src={remote1}
+              style={{
+                display: Switch2 ? "none" : "block",
+              }}
+              alt="No Lights"
+            />
+            <img
+              src={remote2}
+              style={{
+                display: Switch3 ? "none" : "block",
+              }}
+              alt="No Lights"
+            />
+            <img
+              src={remote12}
+              style={{
+                display: Switch4 ? "none" : "block",
+              }}
+              alt="No Lights"
+            />
+            <button
+              onClick={() => {
+                if (check1 === false && check2 === false) {
+                  setSwitch1(true);
+                  setSwitch2(true);
+                  setSwitch3(false);
+                  setSwitch4(true);
+                  setCheck1(true);
+                } else if (check1 === true && check2 === false) {
+                  setSwitch1(false);
+                  setSwitch2(true);
+                  setSwitch3(true);
+                  setSwitch4(true);
+                  setCheck1(false);
+                } else if (check1 === false && check2 === true) {
+                  setSwitch1(true);
+                  setSwitch2(true);
+                  setSwitch3(true);
+                  setSwitch4(false);
+                  setCheck1(true);
+                  // setCheck2(false);
+                } else if (check1 === true && check2 === true) {
+                  setSwitch1(true);
+                  setSwitch2(false);
+                  setSwitch3(true);
+                  setSwitch4(true);
+                  setCheck1(false);
+                }
+              }}
+              className="prev"
+            ></button>
 
-          <button
-            className="next"
-            onClick={() => {
-              if (check1 === false && check2 === false) {
-                setSwitch1(true);
-                setSwitch2(false);
-                setSwitch3(true);
-                setSwitch4(true);
-                setCheck2(true);
-              } else if (check1 === false && check2 === true) {
-                setSwitch1(false);
-                setSwitch2(true);
-                setSwitch3(true);
-                setSwitch4(true);
-                setCheck2(false);
-              } else if (check1 === true && check2 === false) {
-                setSwitch1(true);
-                setSwitch2(true);
-                setSwitch3(true);
-                setSwitch4(false);
-                setCheck2(true);
-              } else if (check1 === true && check2 === true) {
-                setSwitch1(true);
-                setSwitch2(true);
-                setSwitch3(false);
-                setSwitch4(true);
-                setCheck2(false);
-              }
-            }}
-          ></button>
+            <button
+              className="next"
+              onClick={() => {
+                if (check1 === false && check2 === false) {
+                  setSwitch1(true);
+                  setSwitch2(false);
+                  setSwitch3(true);
+                  setSwitch4(true);
+                  setCheck2(true);
+                } else if (check1 === false && check2 === true) {
+                  setSwitch1(false);
+                  setSwitch2(true);
+                  setSwitch3(true);
+                  setSwitch4(true);
+                  setCheck2(false);
+                } else if (check1 === true && check2 === false) {
+                  setSwitch1(true);
+                  setSwitch2(true);
+                  setSwitch3(true);
+                  setSwitch4(false);
+                  setCheck2(true);
+                } else if (check1 === true && check2 === true) {
+                  setSwitch1(true);
+                  setSwitch2(true);
+                  setSwitch3(false);
+                  setSwitch4(true);
+                  setCheck2(false);
+                }
+              }}
+            ></button>
+          </div>
         </div>
       </div>
     </>

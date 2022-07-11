@@ -3,6 +3,11 @@
   margin-bottom: 20px;
   justify-content: space-around;
 }
+.demo_container{
+  background-image: url(../.././Assets/demo/TubeLightON.png);
+  background-size: cover;
+  padding: 1px;
+}
 .Demo_Section_img {
   width: 65%;
   height: 100%;

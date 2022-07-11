@@ -7,7 +7,18 @@ body {
   box-sizing: border-box;
 }
  
-
+.demo_video{
+  width: 100%;
+  display: flex;
+}
+#demo_video{
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 30px;
+  
+  box-shadow:11px 14px 8px 0 rgb(0 0 0 / 20%), 5px 5px 20px 20px rgb(0 0 0 / 19%);
+}
 #myVideo {
   position: relative;
   /* right: 0;
