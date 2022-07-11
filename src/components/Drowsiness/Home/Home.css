@@ -15,7 +15,7 @@ body {
   width: 80%;
   height: 80vh;
   margin: 0 auto;
-  border-radius: 30px;
+  border-radius: 10px;
   
   box-shadow:11px 14px 8px 0 rgb(0 0 0 / 20%), 5px 5px 20px 20px rgb(0 0 0 / 19%);
 }
@@ -276,6 +276,9 @@ font-weight: bolder;
     padding: 10px;
     text-align: center;
     }
+    .drowsiness-bg{
+      height: 25rem;
+    }
     .drowsiness-hid{
       display: block;
     }
@@ -308,7 +311,12 @@ font-weight: bolder;
     .drowsiness-bg3{
       padding: 30px;
     }
-    #demo_video{height: auto;
+    #demo_video{
+      height: auto;
+      width: 85%;
+    }
+    .demo_video{
+      width: 100%;
     }
 
   }

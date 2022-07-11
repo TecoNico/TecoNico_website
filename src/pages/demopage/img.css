@@ -74,7 +74,6 @@
   .Demo_Section_img img {
     border: 15px solid #efeeee;
     border-radius: 27px;
-    margin: 2%;
     outline-offset: -15px;
     outline: 5px solid #d1d1d1;
   }
@@ -84,5 +83,8 @@
     margin: 2%;
     outline-offset: -15px;
     outline: 5px solid #d1d1d1;
+  }
+  .Demo_Section_Remote{
+    width: 100%;
   }
 }
