@@ -8,12 +8,12 @@ body {
 }
  
 .demo_video{
-  width: 100%;
+  width: 80%;
   display: flex;
 }
 #demo_video{
   width: 80%;
-  height: 500px;
+  height: 80vh;
   margin: 0 auto;
   border-radius: 30px;
   
@@ -27,15 +27,17 @@ body {
   height: 100%;
   filter: brightness(0.5);
 }
- /* .drowsiness-bg{
-  background-image: linear-gradient(to left, rgba(255,0,0,0),#009587ed), url(../../../Assets/drowsiness/Asset4.png);
+ .drowsiness-bg{
+  background-image:  url(../../../Assets/drowsiness/d3.gif);
+  filter: brightness(0.7);
   background-color: #cccccc;
-  height: 500px;
+  /* height: 500px; */
+  height: 99vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}  */
+} 
 .drowsiness-text{
   position: absolute;
   bottom: 7px;
@@ -305,6 +307,8 @@ font-weight: bolder;
     }
     .drowsiness-bg3{
       padding: 30px;
+    }
+    #demo_video{height: auto;
     }
 
   }
