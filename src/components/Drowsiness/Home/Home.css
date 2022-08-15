@@ -291,6 +291,9 @@ font-weight: bolder;
     .drowsiness-bg{
       height: 25rem;
     }
+    .home-bg{
+      height: 40vh;
+    }
     .drowsiness-hid{
       display: block;
     }
