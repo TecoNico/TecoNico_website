@@ -38,6 +38,18 @@ body {
   background-size: cover;
   position: relative;
 } 
+
+.home-bg{
+  background-image:  url(../../../Assets/homegif.gif);
+  /* filter: brightness(0.7); */
+  background-color: #cccccc;
+  /* height: 500px; */
+  height: 99vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
 .drowsiness-text{
   position: absolute;
   bottom: 7px;
