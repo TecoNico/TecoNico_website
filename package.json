@@ -1,5 +1,5 @@
 {
-  "name": "Teconico",
+  "name": "teconico",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,6 @@
     "react-scripts": "4.0.3",
     "react-strap": "^0.0.1",
     "reactstrap": "^9.0.1",
->>>>>>> master
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -46,11 +45,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-=======
   },
   "devDependencies": {
     "react-app-rewired-esbuild": "^0.0.9"
->>>>>>> master
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TecoNico/TecoNico_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TecoNico/TecoNico_website/issues"
+  },
+  "homepage": "https://github.com/TecoNico/TecoNico_website#readme",
+  "description": ""
 }
