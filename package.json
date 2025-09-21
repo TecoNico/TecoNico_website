@@ -20,6 +20,7 @@
     "react-scripts": "4.0.3",
     "react-strap": "^0.0.1",
     "reactstrap": "^9.0.1",
+>>>>>>> master
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -45,8 +46,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
   },
   "devDependencies": {
     "react-app-rewired-esbuild": "^0.0.9"
+>>>>>>> master
   }
 }
