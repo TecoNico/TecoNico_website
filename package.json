@@ -17,7 +17,7 @@
     "react-elfsight-widget": "^1.0.0",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.1.1",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.1",
     "react-strap": "^0.0.1",
     "reactstrap": "^9.0.1",
     "web-vitals": "^1.1.2"
@@ -29,37 +29,13 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   },
   "devDependencies": {
     "react-app-rewired-esbuild": "^0.0.9"
-  },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TecoNico/TecoNico_website.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TecoNico/TecoNico_website/issues"
-  },
-  "homepage": "https://github.com/TecoNico/TecoNico_website#readme",
-  "description": ""
+  }
 }
