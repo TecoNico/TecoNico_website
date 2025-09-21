@@ -28,6 +28,8 @@ import { Footer } from "./components/Footer/Footer";
 import Nav2 from "./components/Navbar/Nav2";
 import { Fragment } from "react";
 import Contact from "./components/Contact-Us/contact";
+import AlexaAuth from "./pages/authentication/alexaAuth";
+import GoogleHomeAuth from "./pages/authentication/googleHomeAuth";
 
 function App() {
   return (
@@ -67,6 +69,8 @@ function App() {
             </Fragment>
           }
         />
+        <Route exact path="/authalexa" element={<AlexaAuth />} />
+        <Route exact path="/authgooglehome" element={<GoogleHomeAuth />} />
       </Routes>
       <Footer />
     </Router>
