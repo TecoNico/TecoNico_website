@@ -7,7 +7,7 @@ import Insta from "../../Assets/icons/insta.png";
 import Linkdin from "../../Assets/icons/linkdin.png";
 import Tweeter from "../../Assets/icons/tweeter.png";
 
-const Contact = () => {
+const contact = () => {
   
   return (
     <div>
@@ -119,4 +119,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default contact;

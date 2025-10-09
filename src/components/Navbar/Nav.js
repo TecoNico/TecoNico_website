@@ -77,7 +77,7 @@ const Nav = () => {
               <a className="nav-link  " href="/blog">
                 Blogs
               </a>
-              <a className="nav-link " href="/team">
+              <a className="nav-link " href="/family">
                 Our Team
               </a>
               <a className="nav-link" href="/contact">
