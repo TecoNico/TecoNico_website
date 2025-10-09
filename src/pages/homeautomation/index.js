@@ -4,7 +4,7 @@ import OurProduct from "../../components/HomeAutomation/OurProduct/OurProduct";
 import OurProduct2 from "../../components/HomeAutomation/OurProduct/OurProduct2";
 import Home from "../../components/HomeAutomation/Home/Home";
 import Nav2 from "../../components/Navbar/Nav2";
-import Contact from "../../components/Contact-Us/Contact";
+import Contact from "../../components/Contact-Us/contact";
 import Demo from "../../components/HomeAutomation/Demo/Demo";
 
 export default function HomeAutomation() {

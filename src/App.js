@@ -8,7 +8,7 @@ import Blog from "./components/Blog/index";
 import { Footer } from "./components/Footer/Footer";
 import Nav2 from "./components/Navbar/Nav2";
 import { Fragment } from "react";
-import Contact from "./components/Contact-Us/Contact";
+import Contact from "./components/Contact-Us/contact";
 import AlexaAuth from "./pages/authentication/alexaAuth";
 import GoogleHomeAuth from "./pages/authentication/googleHomeAuth";
 
