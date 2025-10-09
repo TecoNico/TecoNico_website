@@ -49,9 +49,9 @@ export const Footer = () => {
             <div className=" col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                <strong>Phone:</strong> +91 8619131789
+                <strong>Phone:</strong> +91 8085035032
                 <br />
-                <strong>Email:</strong> teconicopvtltd@gmail.com
+                <strong>Email:</strong> developer@teconico.in
                 <br />
               </p>
 
@@ -93,13 +93,13 @@ export const Footer = () => {
                 </a>
               </div>
               <div className=" social-links" style={{ margin: "25px" }}>
-                <button
+                {/* <button
                   type="submit"
                   className="btn btn-danger "
                   onclick="location.href='mailto:teconicopvtltd@gmail.com';"
                 >
                   <i className="icon-mail-fill"></i>Message Us
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

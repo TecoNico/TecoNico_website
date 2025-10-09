@@ -7,7 +7,8 @@ import Insta from "../../Assets/icons/insta.png";
 import Linkdin from "../../Assets/icons/linkdin.png";
 import Tweeter from "../../Assets/icons/tweeter.png";
 
-const contact = () => {
+const Contact = () => {
+  
   return (
     <div>
       {/* <div className="contactform"> */}
@@ -118,4 +119,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

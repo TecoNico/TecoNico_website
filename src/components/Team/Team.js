@@ -6,6 +6,7 @@ import Harshit from "../../Assets/Team-Image/harshit.jpeg";
 import Vishwajeet from "../../Assets/Team-Image/vishwajeet.jpg";
 import harsh from "../../Assets/Team-Image/harsh.jpg";
 import Vaibhav from "../../Assets/Team-Image/vaibhav.jpg";
+import Sunny from "../../Assets/Team-Image/sunny_photo2.jpg";
 
 import "./Team.css";
 const Team = () => {
@@ -14,20 +15,25 @@ const Team = () => {
       name: "CA SR Yadav",
       role: "Professional Advisor",
       avatar: CA,
-      fb: "https://www.facebook.com/aayush.yadav.58760",
+      // fb: "https://www.facebook.com/aayush.yadav.58760",
     },
     {
       name: "Vishwajeet Dwivedy",
       role: "Data Science Consultant",
       avatar: Vishwajeet,
-      insta: "https://www.linkedin.com/in/vishwajeet-dwivedy-85b58316a/",
+      // insta: "https://www.linkedin.com/in/vishwajeet-dwivedy-85b58316a/",
     },
     {
       name: "Vaibhav Gupta",
       role: "Content Marketing ",
       avatar: Vaibhav,
-      ln: "https://www.linkedin.com/in/vaibhav-gupta-a509821b3",
-      insta: "https://www.instagram.com/vaibhav_gupta0807/",
+      // ln: "https://www.linkedin.com/in/vaibhav-gupta-a509821b3",
+      // insta: "https://www.instagram.com/vaibhav_gupta0807/",
+    },
+    {
+      name: "Sunny Yadav",
+      role: "Software Engineer",
+      avatar: Sunny,
     },
     {
       name: "Shubham Patidar",
@@ -61,9 +67,9 @@ const Team = () => {
               name={team.name}
               role={team.role}
               avatar={team.avatar}
-              fb={team.fb}
-              insta={team.insta}
-              ln={team.ln}
+              // fb={team.fb}
+              // insta={team.insta}
+              // ln={team.ln}
             />
           ))}
         </div>
