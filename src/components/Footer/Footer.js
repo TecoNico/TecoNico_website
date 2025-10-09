@@ -49,7 +49,7 @@ export const Footer = () => {
             <div className=" col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                <strong>Phone:</strong> +91 8085035032
+                <strong>Phone:</strong> +918085035032
                 <br />
                 <strong>Email:</strong> developer@teconico.in
                 <br />
